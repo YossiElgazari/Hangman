@@ -2,3 +2,177 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply select-none;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-drop {
+  animation: drop 0.3s ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fade-in-out {
+  animation: fade-in 0.3s ease-in, fade-out 0.3s ease-out 2.7s;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.reveal {
+  animation: reveal 0.5s ease-in-out;
+}
+
+.progress {
+  @apply relative w-full h-5 mt-2 mb-2;
+}
+
+.path {
+  @apply bg-secondary dark:bg-secondary_dark w-full h-1 rounded-sm absolute top-1/2 transform -translate-y-1/2;
+}
+
+.progress .knob {
+  @apply bg-slate-500  w-4 h-4 absolute rounded-md top-1/2 transform -translate-y-1/2 transition-all duration-100 ease-linear  pointer-events-none -translate-x-1/2;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.speaker-line {
+  opacity: 0;
+  animation: fadeInOut 2s infinite;
+}
+
+#Path_4050 {
+  animation-delay: 0s;
+}
+
+#Path_4051 {
+  animation-delay: 0.3s;
+}
+
+/* Dark Mode for all svgs */
+
+.dark svg {
+  filter: invert(98%) sepia(2%) saturate(100%) hue-rotate(180deg)
+    brightness(100%) contrast(100%);
+}
+
+/* Settings Icon */
+
+#settings {
+  @apply w-8 h-8;
+}
+
+/* Hint Icon tooltip and arrow */
+
+.tooltip {
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #4a5568; 
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scroll PlayBar Animation */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scrolling {
+  animation: scroll 5s linear infinite;
+}
+
+.scrollingv2 {
+  animation: scroll 5s linear infinite;
+}
+
+/* GameBoard css */
+
+.hexagon {
+  position: relative;
+  width: 14rem;
+  height: 14rem;
+  margin: 17.32px 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+  );
+}

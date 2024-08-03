@@ -1,19 +1,59 @@
+import { useEffect } from "react";
 
-const Keyboard = ({ onGuess, guessedLetters }: { onGuess: (letter: string) => void; guessedLetters: string[] }) => {
-  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+type KeyboardProps = {
+  onGuess: (letter: string) => void;
+  guessedLetters: string[];
+};
+
+const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      const key = event.key.toUpperCase();
+      if (letters.includes(key) && !guessedLetters.includes(key.toLowerCase())) {
+        onGuess(key.toLowerCase());
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [guessedLetters, onGuess, letters]);
+
+  const renderButton = (letter: string) => (
+    <div key={letter} className="flex justify-center items-center">
+      <button
+        className={`w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-b from-gray-300 to-gray-500 dark:from-gray-700 dark:to-gray-900 border border-gray-500 dark:border-gray-700 rounded-md
+          shadow-lg text-gray-100 dark:text-gray-200 font-semibold text-base sm:text-lg md:text-xl lg:text-2xl transition-transform duration-300 transform ${
+            guessedLetters.includes(letter.toLowerCase())
+              ? "opacity-50 cursor-default"
+              : "hover:bg-gradient-to-b hover:from-gray-400 hover:to-gray-600 dark:hover:from-gray-800 dark:hover:to-gray-950 hover:scale-105 active:scale-95"
+          }`}
+        onClick={() => onGuess(letter.toLowerCase())}
+        disabled={guessedLetters.includes(letter.toLowerCase())}
+      >
+        {letter}
+      </button>
+    </div>
+  );
 
   return (
-    <div className="keyboard flex flex-wrap justify-center my-4">
-      {letters.map((letter) => (
-        <button
-          key={letter}
-          onClick={() => onGuess(letter)}
-          disabled={guessedLetters.includes(letter)}
-          className="m-1 px-3 py-2 bg-blue-500 text-white rounded disabled:opacity-50"
-        >
-          {letter}
-        </button>
-      ))}
+    <div className="flex justify-center items-center">
+      <div className="bg-gray-300 dark:bg-gray-800 p-1 md:p-2 xl:p-4 border-2 border-gray-400 dark:border-gray-600 rounded-lg space-y-2 md:space-y-5">
+        <div className="grid grid-cols-10 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+          {"QWERTYUIOP".split("").map(renderButton)}
+        </div>
+        <div className="grid grid-cols-9 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+          {"ASDFGHJKL".split("").map(renderButton)}
+        </div>
+        <div className="grid grid-cols-9 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+          <div></div>
+          {"ZXCVBNM".split("").map(renderButton)}
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 };

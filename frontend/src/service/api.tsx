@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://147.235.201.152:3001/api';
+const API_URL = 'http://localhost:3001/api';
 
 export const fetchWordByCategory = async ({category, difficulty}: {category: string, difficulty: string}) => {
   try {
@@ -28,6 +28,6 @@ export const addScore = async ({ username, score }: { username: string, score: n
     return response.data;
   } catch (error) {
     console.error('Error adding score:', error);
-    throw error;
+    return error;
   }
 };

@@ -1,53 +1,65 @@
-import React, { useState } from 'react';
-import { fetchWordByCategory } from '../service/api';
+import { useState } from "react";
+import { fetchWordByCategory } from "../service/api";
+import MyButton from "./MyButton.tsx";
+import ButtonSelect from "./ButtonSelect.tsx";
 
 type CategorySelectorProps = {
-  setWords: (words: { word: string, hint: string, category: string }[]) => void;
+  setWord: (word: {
+    word: string;
+    difficulty: string;
+    hint: string;
+    category: string;
+  }) => void;
 };
 
-const CategorySelector = ({ setWords }: CategorySelectorProps) => {
-  const [category, setCategory] = useState('');
-  const [difficulty, setDifficulty] = useState('');
+const CategorySelector = ({ setWord }: CategorySelectorProps) => {
+  const [category, setCategory] = useState("");
+  const [difficulty, setDifficulty] = useState("");
+  const [error, setError] = useState("");
 
-  const handleCategoryChange = async (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedCategory = event.target.value;
-    setCategory(selectedCategory);
-    const words = await fetchWordByCategory({ category: selectedCategory, difficulty });
-    setWords(words);
-  };
-
-  const handleDifficultyChange = async (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedDifficulty = event.target.value;
-    setDifficulty(selectedDifficulty);
-    if (category) {
-      const words = await fetchWordByCategory({ category, difficulty: selectedDifficulty });
-      setWords(words);
+  const handleStartGame = async () => {
+    if (!category || !difficulty) {
+      setError("Please select both a category and difficulty.");
+      setTimeout(() => setError(""), 3000); 
+      return;
     }
+    const word = await fetchWordByCategory({ category, difficulty });
+    setWord(word);
   };
 
   return (
-    <div className="p-4">
-      <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">Select Category:</label>
-        <select value={category} onChange={handleCategoryChange} className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-          <option value="">--Select--</option>
-          <option value="Animals">Animals</option>
-          <option value="Countries">Countries</option>
-          <option value="Fruits">Fruits</option>
-          <option value="Food">Food</option>
-          <option value="Random">Random</option>
-        </select>
-      </div>
+    <div className="p-4 flex flex-col justify-center items-center">
+      <ButtonSelect
+        label="Select Category"
+        value={category}
+        onChange={setCategory}
+        options={[
+          { value: "random", label: "Random" },
+          { value: "Animals", label: "Animals" },
+          { value: "Countries", label: "Countries" },
+          { value: "Fruits", label: "Fruits" },
+          { value: "Food", label: "Food" },
+        ]}
+      />
 
-      <div>
-        <label className="block text-gray-700 text-sm font-bold mb-2">Select Difficulty:</label>
-        <select value={difficulty} onChange={handleDifficultyChange} className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-          <option value="">--Select--</option>
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-          <option value="Random">Random</option>
-        </select>
+      <ButtonSelect
+        label="Select Difficulty"
+        value={difficulty}
+        onChange={setDifficulty}
+        options={[
+          { value: "random", label: "Random" },
+          { value: "easy", label: "Easy" },
+          { value: "medium", label: "Medium" },
+          { value: "hard", label: "Hard" },
+        ]}
+      />
+      {error && (
+        <div className="flex items-center text-red-600 bg-red-100 border border-red-600 rounded-md p-2 mb-6 transition-opacity duration-1000 ease-in-out animate-fade-in-out">
+          <span>{error}</span>
+        </div>
+      )}
+      <div className="flex justify-center">
+        <MyButton onClick={handleStartGame}>Start Game</MyButton>
       </div>
     </div>
   );

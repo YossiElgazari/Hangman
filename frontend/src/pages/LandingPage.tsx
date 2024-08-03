@@ -1,0 +1,232 @@
+import { useEffect, useRef, useState, useCallback } from "react";
+import CategoryModal from "../components/CategoryModal";
+import AboutModal from "../components/AboutModal";
+import AboutMeModal from "../components/AboutMeModal";
+import MyButton from "../components/MyButton";
+import text from "../assets/hangmantext.png";
+import textshadow from "../assets/textshadow.png";
+import gsap from "gsap";
+import ParticlesBackground from "../components/ParticlesBackground";
+import { useGameState } from "../hooks/useGameState";
+
+const LandingPage = () => {
+  const { startGame } = useGameState();
+  const [isCategoryModalOpen, setIsCategoryModalOpen] = useState(false);
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
+  const [isMeModalOpen, setIsMeModalOpen] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+  const shadowRef = useRef<HTMLImageElement>(null);
+  const playButtonRef = useRef<HTMLButtonElement>(null);
+  const aboutButtonRef = useRef<HTMLButtonElement>(null);
+  const meButtonRef = useRef<HTMLButtonElement>(null);
+
+  const initializeGSAPAnimations = useCallback(() => {
+    const img = imgRef.current;
+    const shadow = shadowRef.current;
+    const playButton = playButtonRef.current;
+    const aboutButton = aboutButtonRef.current;
+    const meButton = meButtonRef.current;
+
+    const tl = gsap.timeline({
+      defaults: { duration: 1, opacity: 0, scale: 3 },
+    });
+    const tl2 = gsap.timeline({
+      defaults: { duration: 0.8, opacity: 0, scale: 1.5 },
+    });
+    const tl3 = gsap.timeline({ defaults: { opacity: 1, scale: 1 } });
+
+    if (img && shadow && playButton && aboutButton && meButton) {
+      tl.set(img, { opacity: 0, y: 300, scale: 3 })
+        .set(shadow, { opacity: 0, scale: 1, y: 300 })
+        .to(img, {
+          scale: 1,
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          ease: "elastic.out(1, 0.5)",
+        })
+        .to(
+          shadow,
+          {
+            opacity: 0.7,
+            scale: 1,
+            duration: 1,
+            y: 0,
+            ease: "elastic.out(1, 0.5)",
+          },
+          "-=1"
+        );
+
+      tl2
+        .set(playButton, { opacity: 0, scale: 2, y: 300 })
+        .set(aboutButton, { opacity: 0, scale: 2, y: 300 })
+        .set(meButton, { opacity: 0, scale: 2, y: 300 })
+        .to(playButton, {
+          opacity: 1,
+          scale: 1,
+          duration: 0.8,
+          y: 0,
+          ease: "elastic.in(1, 0.5)",
+        })
+        .to(
+          aboutButton,
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 0.8,
+            y: 0,
+            ease: "elastic.in(1, 0.5)",
+          },
+          "-=0.6"
+        )
+        .to(
+          meButton,
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 0.8,
+            y: 0,
+            ease: "elastic.in(1, 0.5)",
+          },
+          "-=0.6"
+        );
+
+      tl.then(() => {
+        tl3
+          .set(img, { opacity: 1, scale: 1, y: 0 })
+          .set(shadow, { opacity: 0.7, duration: 1 })
+          .to(img, {
+            duration: 1,
+            y: -10,
+            ease: "power1.inOut",
+            yoyo: true,
+            repeat: -1,
+          })
+          .to(shadow, {
+            duration: 1,
+            opacity: 0.7,
+            scale: 1.05,
+            ease: "power1.inOut",
+            yoyo: true,
+            repeat: -1,
+          });
+      });
+
+      const addHoverAnimation = (element: HTMLElement) => {
+        element.addEventListener("mouseenter", () =>
+          gsap.to(element, { scale: 1.1, duration: 0.2 })
+        );
+        element.addEventListener("mouseleave", () =>
+          gsap.to(element, { scale: 1, duration: 0.2 })
+        );
+      };
+
+      tl2.then(() => {
+        addHoverAnimation(playButton);
+        addHoverAnimation(aboutButton);
+        addHoverAnimation(meButton);
+      });
+    }
+  }, []);
+
+  useEffect(() => {
+    initializeGSAPAnimations();
+  }, [initializeGSAPAnimations]);
+
+  const openModal = useCallback((setModalState: (state: boolean) => void) => {
+    setModalState(true);
+  }, []);
+
+  const closeModal = useCallback((setModalState: (state: boolean) => void) => {
+    setModalState(false);
+  }, []);
+
+  const handleStartGame = useCallback(
+    (selectedWord: {
+      word: string;
+      difficulty: string;
+      hint: string;
+      category: string;
+    }) => {
+      gsap.to(".landing-page", {
+        duration: 0.8,
+        scale: 0.01,
+        opacity: 0,
+        ease: "back.in(1.7)",
+        onComplete: () => startGame(selectedWord),
+      });
+    },
+    [startGame]
+  );
+
+  return (
+    <>
+    <div className="landing-page">
+        <div className="flex flex-col h-full justify-center items-center relative ">
+        <ParticlesBackground />
+          <img
+            ref={imgRef}
+            src={text}
+            className="self-center max-w-full h-auto max-h-80 md:max-h-96"
+            alt="Hangman Game"
+            draggable="false"
+          />
+          <img
+            src={textshadow}
+            ref={shadowRef}
+            className="self-center w-[26rem] opacity-0"
+          />
+        </div>
+        <div className="flex flex-col items-center mt-12">
+          <MyButton
+            ref={playButtonRef}
+            onClick={() => openModal(setIsCategoryModalOpen)}
+            size="large"
+            className="opacity-0 hover:float-button"
+            width="250px"
+          >
+            Play Now
+          </MyButton>
+          <MyButton
+            ref={aboutButtonRef}
+            onClick={() => openModal(setIsAboutModalOpen)}
+            size="large"
+            className="mt-4 opacity-0 hover:float-button"
+            width="250px"
+          >
+            About The Game
+          </MyButton>
+          <MyButton
+            ref={meButtonRef}
+            onClick={() => openModal(setIsMeModalOpen)}
+            size="large"
+            className="mt-4 opacity-0 hover:float-button"
+            width="250px"
+          >
+            About Me
+          </MyButton>
+        </div>
+      </div>
+      {isCategoryModalOpen && (
+        <CategoryModal
+          closeModal={(selectedWord) => {
+            if (selectedWord) {
+              closeModal(setIsCategoryModalOpen);
+              handleStartGame(selectedWord);
+            } else {
+              closeModal(setIsCategoryModalOpen);
+            }
+          }}
+        />
+      )}
+      {isAboutModalOpen && (
+        <AboutModal closeModal={() => closeModal(setIsAboutModalOpen)} />
+      )}
+      {isMeModalOpen && (
+        <AboutMeModal closeModal={() => closeModal(setIsMeModalOpen)} />
+      )}
+    </>
+  );
+};
+
+export default LandingPage;

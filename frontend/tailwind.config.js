@@ -1,22 +1,23 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-        fontFamily: {
-          poppins: ['Poppins', 'sans-serif'],
-          permanent: ['Permanent Marker', 'cursive'],
-          outfit: ['Outfit', 'sans-serif'],
-        },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        permanent: ['Permanent Marker', 'cursive'],
+        outfit: ['Outfit', 'sans-serif'],
+      },
       fontSize: {
-        headline1: ['4.05rem', '4.75rem'], // 64px to 76px
-        headline2: ['2.30rem', '2.80rem'], // 36px to 44px
-        headline3: ['1.80rem', '2.30rem'], // 28px to 36px
-        headline4: ['1.75rem', '1.80rem'], // 20px to 28px
-        body1: ['1.125rem', '1.75rem'], // 18px to 28px
+        headline1: ['4rem', '4.75rem'], // 64px to 76px
+        headline2: ['3rem', '3.75rem'], // 48px to 60px
+        headline3: ['2.25rem', '3rem'], // 36px to 48px
+        headline4: ['1.75rem', '2.25rem'], // 28px to 36px
+        body1: ['1.25rem', '1.75rem'], // 20px to 28px
         body2: ['1rem', '1.5rem'], // 16px to 24px
         body3: ['0.875rem', '1.25rem'], // 14px to 20px
         body4: ['0.75rem', '1rem'] // 12px to 16px
@@ -35,22 +36,18 @@ module.exports = {
       },
       colors: {
         black: "#000000",
-        darkGrey: "#4D4D4D",
-        grey: "#717171",
-        lightGrey: "#B9B9B9",
-        greyBlue: "#ABBED1",
-        silverGrey: "#E8E8E8",
-        silver: "#F5F7FA",
         white: "#FFFFFF",
+        silver: "#F5F7FA",
         primary: "#FFFFF9",
+        primary50: "#F5F7FA",
         secondary: "#1A1D1E",
         secondary50: "#2B2D2E",
-        info: "#EF21F3",
-        shade1: "#CCFAEF",
-        shade2: "#99E8E6",
-        shade3: "#66D6DC",
-        shade4: "#33C4D3",
-        shade5: "#00B1C9",
+        primary_dark: "#1A1D1E",
+        primary_dark50: "#2B2D2E",
+        secondary_dark: "#FFFFF9",
+        secondary_dark50: "#F5F7FA",
+        text_dark: "#FFFFF9",
+        text_light: "#1A1D1E",
         tint1: "#BED9DD",
         tint2: "#CBDFE3",
         tint3: "#D3E6E9",
