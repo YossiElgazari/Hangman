@@ -18,6 +18,8 @@ app.use(express.json());
 app.use('/api', scoreRoutes);
 app.use('/api', wordRoutes);
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+
+module.exports = {server, app};
