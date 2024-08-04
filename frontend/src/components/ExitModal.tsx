@@ -25,7 +25,7 @@ const ExitModal = ({ closeModal }: ExitModalProps) => {
 
   return (
     <div
-      className={`fixed z-30 inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
+      className={`fixed z-20 inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
       onClick={handleClose}

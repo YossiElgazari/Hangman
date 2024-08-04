@@ -21,7 +21,7 @@ const HintModal = ({ hint, onClose }: HintModalProps) => {
 
   return (
     <div
-      className={`fixed z-30 inset-0 bg-secondary50 dark:bg-slate-700 dark:bg-opacity-75 bg-opacity-75 flex items-center justify-center transition-opacity duration-300  ${
+      className={`fixed z-20 inset-0 bg-secondary50 dark:bg-slate-700 dark:bg-opacity-75 bg-opacity-75 flex items-center justify-center transition-opacity duration-300  ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
       onClick={handleClose}

@@ -22,7 +22,7 @@ const SettingsModal = ({ onClose }: SettingsModalProps) => {
 
   return (
     <div
-      className={`fixed inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center z-30 transition-opacity duration-300 ${
+      className={`fixed inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center z-20 transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={handleClose}

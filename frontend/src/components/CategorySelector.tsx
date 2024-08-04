@@ -28,7 +28,7 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
   };
 
   return (
-    <div className="p-4 flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center">
       <ButtonSelect
         label="Select Category"
         value={category}
@@ -58,7 +58,7 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
           <span>{error}</span>
         </div>
       )}
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-4">
         <MyButton onClick={handleStartGame}>Start Game</MyButton>
       </div>
     </div>

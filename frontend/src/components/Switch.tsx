@@ -79,7 +79,7 @@ const Switch = () => {
   
   return (
     <div
-      className="z-10 flex items-center cursor-pointer w-16 p-0.5 rounded-full border-2 border-secondary dark:border-secondary_dark"
+      className="flex items-center cursor-pointer w-16 p-0.5 rounded-full border-2 border-secondary dark:border-secondary_dark"
       onClick={handleToggle}
     >
       <div className="relative w-full h-6">

@@ -8,12 +8,15 @@ import textshadow from "../assets/textshadow.png";
 import gsap from "gsap";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { useGameState } from "../hooks/useGameState";
+import LeaderBoard from "../components/LeaderBoard";
+import LeaderBoardModal from "../components/LeaderBoardModal";
 
 const LandingPage = () => {
   const { startGame } = useGameState();
   const [isCategoryModalOpen, setIsCategoryModalOpen] = useState(false);
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
   const [isMeModalOpen, setIsMeModalOpen] = useState(false);
+  const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
   const shadowRef = useRef<HTMLImageElement>(null);
   const playButtonRef = useRef<HTMLButtonElement>(null);
@@ -161,9 +164,9 @@ const LandingPage = () => {
 
   return (
     <>
-    <div className="landing-page">
+      <div className="landing-page">
         <div className="flex flex-col h-full justify-center items-center relative ">
-        <ParticlesBackground />
+          <ParticlesBackground />
           <img
             ref={imgRef}
             src={text}
@@ -177,7 +180,7 @@ const LandingPage = () => {
             className="self-center w-[26rem] opacity-0"
           />
         </div>
-        <div className="flex flex-col items-center mt-12">
+        <div className="flex flex-col items-center mt-12 2k:mt-72">
           <MyButton
             ref={playButtonRef}
             onClick={() => openModal(setIsCategoryModalOpen)}
@@ -224,6 +227,10 @@ const LandingPage = () => {
       )}
       {isMeModalOpen && (
         <AboutMeModal closeModal={() => closeModal(setIsMeModalOpen)} />
+      )}
+      <LeaderBoard onClick={() => openModal(setIsLeaderboardOpen)} />
+      {isLeaderboardOpen && (
+        <LeaderBoardModal onClose={() => closeModal(setIsLeaderboardOpen)} />
       )}
     </>
   );

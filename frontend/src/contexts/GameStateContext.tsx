@@ -16,8 +16,9 @@ type GameState = {
   }) => void;
   backToMain: () => void;
   score: number;
+  gameStatus: 'won' | 'lost' | null;
+  setGameStatus: (status: 'won' | 'lost' | null) => void;
   incrementScore: (points: number) => void;
-  resetScore: () => void;
 };
 
 export const GameStateContext = createContext<GameState | undefined>(undefined);
@@ -31,6 +32,7 @@ export const GameStateProvider = ({ children }: { children: ReactNode }) => {
   } | null>(null);
   const [isGameStarted, setIsGameStarted] = useState(false);
   const [score, setScore] = useState(0);
+  const [gameStatus, setGameStatus] = useState<'won' | 'lost' | null>(null);
 
   const startGame = (selectedWord: {
     word: string;
@@ -40,11 +42,13 @@ export const GameStateProvider = ({ children }: { children: ReactNode }) => {
   }) => {
     setWord(selectedWord);
     setIsGameStarted(true);
+    setGameStatus(null);
   };
 
   const backToMain = () => {
     setWord(null);
     setIsGameStarted(false);
+    setGameStatus(null);
     setScore(0);
   };
 
@@ -52,13 +56,9 @@ export const GameStateProvider = ({ children }: { children: ReactNode }) => {
     setScore(prevScore => prevScore + points);
   };
 
-  const resetScore = () => {
-    setScore(0);
-  };
-
   return (
-    <GameStateContext.Provider value={{ word, score, isGameStarted, startGame, backToMain, incrementScore, resetScore }}>
+    <GameStateContext.Provider value={{ word, score, isGameStarted, startGame, backToMain, incrementScore,gameStatus, setGameStatus}}>
       {children}
     </GameStateContext.Provider>
   );
-};
+}

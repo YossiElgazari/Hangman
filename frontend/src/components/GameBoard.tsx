@@ -7,7 +7,7 @@ const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
   const lines = word.word.split(" ");
 
   return (
-    <div className="flex justify-center items-center flex-col mb-4 ">
+    <div className="flex flex-grow justify-center items-center flex-col mb-4">
       {lines.map((line, lineIndex) => (
         <div
           key={lineIndex}
@@ -18,7 +18,7 @@ const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
             return (
               <div
                 key={`${lineIndex}-${charIndex}`}
-                className={`flex items-center justify-center border border-gray-400 dark:border-gray-600 shadow-md text-gray-800 dark:text-gray-100 font-permanent font-semibold text-headline3 md:text-headline2 lg:text-7xl w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 lg:w-32 lg:h-32  
+                className={`flex items-center justify-center border border-gray-400 dark:border-gray-600 shadow-md text-gray-800 dark:text-gray-100 font-permanent font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20  
                   ${
                     char === "-"
                       ? "bg-transparent border-none shadow-none"

@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        '2k': '2048px',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         permanent: ['Permanent Marker', 'cursive'],
@@ -20,7 +23,7 @@ export default {
         body1: ['1.25rem', '1.75rem'], // 20px to 28px
         body2: ['1rem', '1.5rem'], // 16px to 24px
         body3: ['0.875rem', '1.25rem'], // 14px to 20px
-        body4: ['0.75rem', '1rem'] // 12px to 16px
+        body4: ['0.75rem', '1rem'], // 12px to 16px
       },
       fontWeight: {
         semibold: 600,
@@ -59,5 +62,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }

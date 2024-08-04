@@ -26,7 +26,7 @@ const ParticlesBackground = () => {
     })();
   }, [settings.darkMode]);
 
-  return <div id="tsparticles" className="absolute inset-0 -z-1 transition-all duration-300" />;
+  return <div id="tsparticles" className="absolute inset-0 z-0 transition-all duration-300" />;
 };
 
 export default ParticlesBackground;

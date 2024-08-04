@@ -6,6 +6,7 @@
   @apply select-none;
 }
 
+
 @keyframes drop {
   0% {
     opacity: 0;

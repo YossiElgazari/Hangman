@@ -23,8 +23,7 @@ exports.getScores = async (req, res) => {
         }
       }
     ]);
-
-    res.status(200).json(scores);
+    res.status(200).json({scores});
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -32,13 +31,19 @@ exports.getScores = async (req, res) => {
 
 exports.addScore = async (req, res) => {
   const { username, score } = req.body;
-
-  const newScore = new Score({ username, score });
-
-  try {
-    await newScore.save();
-    res.status(201).json(newScore);
-  } catch (err) {
-    res.status(500).json({ message: err.message });
+  const usernameExists = await Score.findOne({ username });
+  if (usernameExists) {
+    if (score > usernameExists.score) {
+      usernameExists.score = score;
+      try {
+        await usernameExists.save();
+        res.status(201).json(usernameExists);
+      } catch (err) {
+        res.status(500).json({ message: err.message });
+      }
+    } else {
+      res.status(201).json(usernameExists);
+    }
+    return;
   }
 };
