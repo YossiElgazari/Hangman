@@ -36,7 +36,7 @@ const GamePage = () => {
   const [isHintModalOpen, setIsHintModalOpen] = useState(false);
   const { settings } = useSettings();
 
-
+  // Animation for page load
   useEffect(() => {
     const animationStartGamePage = () => {
       const tl = gsap.timeline({
@@ -60,6 +60,7 @@ const GamePage = () => {
     winSound.volume(settings.soundEffectsVolume / 100);
     loseSound.volume(settings.soundEffectsVolume / 100);
     
+    // Check game status
     if (wrongGuesses >= 6) {
       setGameStatus("lost");
       loseSound.play(); 

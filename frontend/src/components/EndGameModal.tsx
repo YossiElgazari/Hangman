@@ -23,6 +23,7 @@ const EndGameModal = ({
   const [error, setError] = useState("");
   const modalRef = useRef<HTMLDivElement>(null);
 
+  // Animate the modal when it appears
   useEffect(() => {
     gsap.fromTo(
       modalRef.current,
@@ -36,16 +37,17 @@ const EndGameModal = ({
   };
 
   const handleScoreSubmit = async () => {
+    // Check if username is provided
     if (!username.trim()) {
       setError("Username cannot be empty");
-      setTimeout(() => setError(""), 2000);
+      setTimeout(() => setError(""), 2000); // Clear error after 2 seconds
       return;
     }
 
     try {
       const response = await addScore({ username, score });
       if (response && !response.message) {
-        onBackToMain();
+        onBackToMain(); // Go back to main if score submission is successful
       } else {
         setError(response.message || "Something went wrong. Please try again.");
         setTimeout(() => setError(""), 2000);
@@ -55,7 +57,6 @@ const EndGameModal = ({
       setTimeout(() => setError(""), 2000);
     }
   };
-
 
   return (
     <div className="fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300">

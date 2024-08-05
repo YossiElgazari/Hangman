@@ -6,13 +6,15 @@ import logo from "../assets/logo.png";
 const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // Show the modal when the component mounts
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
   const handleClose = () => {
     setIsVisible(false);
-    setTimeout(() => closeModal(), 300); // Delay to allow fade-out animation
+    // Delay closing the modal to allow for transition
+    setTimeout(() => closeModal(), 300); 
   };
 
   return (
@@ -23,7 +25,7 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
     >
       <div
         className="bg-primary dark:bg-primary_dark p-4 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl relative font-outfit transition-transform duration-300 transform"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
       >
         <div

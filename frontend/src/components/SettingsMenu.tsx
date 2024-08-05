@@ -135,6 +135,7 @@ const SettingsMenu = () => {
   const { backToMain } = useGameState();
   const menuRef = useRef<HTMLDivElement>(null);
 
+  // Toggle menu visibility and apply fade-out animation if closing
   const toggleMenu = () => {
     if (isMenuOpen) {
       setIsMenuOpen(false);
@@ -145,16 +146,19 @@ const SettingsMenu = () => {
     }
   };
 
+  // Open settings modal and close the menu with a fade-out animation
   const openSettingsModal = () => {
     setIsSettingsModalOpen(true);
     setIsMenuOpen(false);
     setTimeout(() => setIsMenuVisible(false), 300); // Delay to allow fade-out animation
   };
 
+  // Close settings modal
   const closeSettingsModal = () => {
     setIsSettingsModalOpen(false);
   };
 
+  // Handle clicks outside the menu to close it
   const handleClickOutside = (event: MouseEvent) => {
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       setIsMenuOpen(false);
@@ -162,12 +166,14 @@ const SettingsMenu = () => {
     }
   };
 
+  // Go back to main menu and close the settings menu
   const handleBackToMain = () => {
     setIsMenuOpen(false);
     setIsMenuVisible(false);
     backToMain();
   };
 
+  // Add or remove event listener for clicks outside the menu
   useEffect(() => {
     if (isMenuOpen) {
       document.addEventListener("mousedown", handleClickOutside);
@@ -202,7 +208,6 @@ const SettingsMenu = () => {
             isMenuOpen ? "opacity-100 animate-drop" : "opacity-0"
           }`}
         >
-          
           <ul className="flex flex-col p-2">
             {isGameStarted && (
               <li

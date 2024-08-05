@@ -16,6 +16,7 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Fetch leaderboard data when the component mounts
     const fetchData = async () => {
       try {
         const data = await fetchTopScores();
@@ -35,6 +36,7 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
 
   const handleClose = () => {
     setIsVisible(false);
+    // Delay to allow fade-out animation
     setTimeout(() => onClose(), 300);
   };
 
@@ -47,6 +49,7 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
       <div
         className="LeaderBoard-modal bg-primary dark:bg-primary_dark border-4 border-primary_dark dark:border-primary rounded-3xl w-[36rem] text-center p-4 px-8 transition-transform duration-300 transform"
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
       >
         <h2 className="absolute bg-primary dark:bg-primary_dark -top-8 left-[50%] -translate-x-1/2 border-4 border-primary_dark dark:border-primary rounded-2xl text-primary_dark50 dark:text-primary50 font-semibold font-outfit p-2 text-headline4 tracking-widest">
           LEADERBOARD
@@ -75,16 +78,12 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
             </div>
           ))}
         </div>
-        <MyButton onClick={handleClose} size="small" >
+        <MyButton onClick={handleClose} size="small">
           Close
         </MyButton>
       </div>
     </div>
   );
-
-
-
-
 };
 
 export default LeaderBoardModal;

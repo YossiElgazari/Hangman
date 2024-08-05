@@ -8,7 +8,7 @@ type KeyboardProps = {
 
 const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  const {gameStatus} = useGameState();
+  const { gameStatus } = useGameState();
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
@@ -18,9 +18,12 @@ const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
       }
     };
 
+    // Add keydown event listener
     window.addEventListener("keydown", handleKeyPress);
+
+    // Remove keydown event listener when game status changes or component unmounts
     if (gameStatus !== null) {
-      window.removeEventListener("keydown", handleKeyPress)
+      window.removeEventListener("keydown", handleKeyPress);
     }
     return () => {
       window.removeEventListener("keydown", handleKeyPress);

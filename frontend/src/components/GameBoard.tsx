@@ -4,7 +4,7 @@ type GameBoardProps = {
 };
 
 const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
-  const lines = word.word.split(" ");
+  const lines = word.word.split(" "); // Split the word into lines based on spaces
 
   return (
     <div className="flex flex-grow justify-center items-center flex-col mb-4">
@@ -14,7 +14,7 @@ const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
           className="flex flex-row flex-wrap justify-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 mb-2"
         >
           {line.split("").map((char, charIndex) => {
-            const isGuessed = guessedLetters.includes(char.toLowerCase());
+            const isGuessed = guessedLetters.includes(char.toLowerCase()); // Check if the character is guessed
             return (
               <div
                 key={`${lineIndex}-${charIndex}`}

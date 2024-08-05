@@ -18,13 +18,15 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
   const [error, setError] = useState("");
 
   const handleStartGame = async () => {
+    // Check if both category and difficulty are selected
     if (!category || !difficulty) {
       setError("Please select both a category and difficulty.");
-      setTimeout(() => setError(""), 3000); 
+      setTimeout(() => setError(""), 3000); // Clear error after 3 seconds
       return;
     }
+    // Fetch a word based on selected category and difficulty
     const word = await fetchWordByCategory({ category, difficulty });
-    setWord(word);
+    setWord(word); // Set the fetched word
   };
 
   return (

@@ -39,6 +39,7 @@ const LandingPage = () => {
     const tl3 = gsap.timeline({ defaults: { opacity: 1, scale: 1 } });
 
     if (img && shadow && playButton && aboutButton && meButton) {
+      // Animation for the main image and its shadow
       tl.set(img, { opacity: 0, y: 300, scale: 3 })
         .set(shadow, { opacity: 0, scale: 1, y: 300 })
         .to(img, {
@@ -60,6 +61,7 @@ const LandingPage = () => {
           "-=1"
         );
 
+      // Animation for the buttons
       tl2
         .set(playButton, { opacity: 0, scale: 2, y: 300 })
         .set(aboutButton, { opacity: 0, scale: 2, y: 300 })
@@ -95,6 +97,7 @@ const LandingPage = () => {
         );
 
       tl.then(() => {
+        // Animation for floating effect
         tl3
           .set(img, { opacity: 1, scale: 1, y: 0 })
           .set(shadow, { opacity: 0.7, duration: 1 })
@@ -115,6 +118,7 @@ const LandingPage = () => {
           });
       });
 
+      // Hover animations for the buttons
       const addHoverAnimation = (element: HTMLElement) => {
         element.addEventListener("mouseenter", () =>
           gsap.to(element, { scale: 1.1, duration: 0.2 })
@@ -156,7 +160,7 @@ const LandingPage = () => {
         scale: 0.01,
         opacity: 0,
         ease: "back.in(1.7)",
-        onComplete: () => startGame(selectedWord),
+        onComplete: () => startGame(selectedWord), // Start game after animation completes
       });
     },
     [startGame]

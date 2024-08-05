@@ -1,10 +1,10 @@
-// particlesConfig.ts
 import type { Engine } from "@tsparticles/engine";
 import { loadBasic } from "@tsparticles/basic";
 import { loadParticlesLinksInteraction } from "@tsparticles/interaction-particles-links";
 import { loadExternalRepulseInteraction } from "@tsparticles/interaction-external-repulse";
 import type { ISourceOptions } from "@tsparticles/engine";
 
+// Configuration options for light mode particles
 export const options: ISourceOptions = {
   background: {
     color: "#FFFFF9",
@@ -50,6 +50,7 @@ export const options: ISourceOptions = {
   },
 };
 
+// Configuration options for dark mode particles
 export const optionsDark: ISourceOptions = {
   background: {
     color: "#1A1D1E",
@@ -95,6 +96,7 @@ export const optionsDark: ISourceOptions = {
   },
 };
 
+// Function to load the particles preset with specified options
 export async function loadLinksPreset(engine: Engine, options: ISourceOptions, refresh = true): Promise<void> {
   await loadBasic(engine, false);
   await loadParticlesLinksInteraction(engine, false);
@@ -105,4 +107,3 @@ export async function loadLinksPreset(engine: Engine, options: ISourceOptions, r
     await engine.refresh();
   }
 }
-

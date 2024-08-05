@@ -9,12 +9,14 @@ type CategoryModalProps = {
 const CategoryModal = ({ closeModal }: CategoryModalProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // Show the modal when the component mounts
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
   const handleClose = () => {
     setIsVisible(false);
+    // Delay closing the modal to allow for transition
     setTimeout(() => closeModal(), 300);
   };
 
@@ -26,7 +28,7 @@ const CategoryModal = ({ closeModal }: CategoryModalProps) => {
     >
       <div
         className="bg-primary dark:bg-primary_dark p-8 rounded-lg shadow-lg max-w-md w-full md:max-w-xl lg:max-w-2xl relative transition-transform duration-300 transform"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-20px)' }}
       >
         <XButton handleClose={handleClose} />

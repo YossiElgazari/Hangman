@@ -9,6 +9,7 @@ type ExitModalProps = {
 const ExitModal = ({ closeModal }: ExitModalProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // Show the modal when the component mounts
   useEffect(() => {
     setIsVisible(true);
   }, []);
@@ -19,19 +20,20 @@ const ExitModal = ({ closeModal }: ExitModalProps) => {
   };
 
   const handleExit = () => {
+    // Attempt to close the browser window
     window.open('', '_self', ''); // Some browsers require this for window.close() to work
     window.close();
   };
 
   return (
     <div
-    className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
-    onClick={handleClose}
-  >
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
+      onClick={handleClose}
+    >
       <div
         className="bg-primary dark:bg-primary_dark50 dark:text-primary text-secondary p-6 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-20px)' }}
       >
         <XButton handleClose={handleClose} />

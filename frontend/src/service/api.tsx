@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const API_URL = 'http://localhost:3001/api';
 
+// Fetch a word based on the given category and difficulty
 export const fetchWordByCategory = async ({category, difficulty}: {category: string, difficulty: string}) => {
   try {
     const response = await axios.get(`${API_URL}/word`, { params: { category, difficulty } });
@@ -12,6 +13,7 @@ export const fetchWordByCategory = async ({category, difficulty}: {category: str
   }
 };
 
+// Fetch the top scores from the server
 export const fetchTopScores = async () => {
   try {
     const response = await axios.get(`${API_URL}/scores`);
@@ -22,6 +24,7 @@ export const fetchTopScores = async () => {
   }
 };
 
+// Add a new score for a user
 export const addScore = async ({ username, score }: { username: string; score: number }) => {
   try {
     const response = await axios.post(`${API_URL}/scores`, { username, score });

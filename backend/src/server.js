@@ -12,14 +12,16 @@ const port = process.env.PORT;
 connectDB();
 
 // Middleware
-app.use(cors());
-app.use(express.json());
+app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(express.json()); // Parse JSON request bodies
 
+// Route handlers
 app.use('/api', scoreRoutes);
 app.use('/api', wordRoutes);
 
+// Start the server
 const server = app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
 
-module.exports = {server, app};
+module.exports = { server, app };

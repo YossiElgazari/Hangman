@@ -7,7 +7,7 @@ const Volume = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isVolumeOn, setIsVolumeOn] = useState(false);
   const [currentTrackIndex, setCurrentTrackIndex] = useState<number>(() =>
-    Math.floor(Math.random() * tracks.length)
+    Math.floor(Math.random() * tracks.length) // Select a random track index initially
   );
   const currentTrack = tracks[currentTrackIndex];
   const { settings } = useSettings();
@@ -15,31 +15,31 @@ const Volume = () => {
 
   useEffect(() => {
     if (audioRef.current && isUserInteracted) {
-      audioRef.current.volume = settings.volume / 100;
+      audioRef.current.volume = settings.volume / 100; // Set audio volume based on settings
       if (settings.volume === 0) {
-        setIsVolumeOn(false);
+        setIsVolumeOn(false); // Mute if volume is set to 0
       }
-      audioRef.current.muted = !isVolumeOn;
+      audioRef.current.muted = !isVolumeOn; // Mute or unmute based on volume state
       if (isVolumeOn) {
         audioRef.current.play().catch((e) => {
-          console.error("Play error:", e);
+          console.error("Play error:", e); // Handle play errors
         });
       } else {
-        audioRef.current.pause();
+        audioRef.current.pause(); // Pause if volume is off
       }
     }
   }, [settings.volume, isVolumeOn, currentTrack, isUserInteracted]);
 
   const handleVolumeToggle = () => {
     if (settings.volume === 0) {
-      settings.volume = 50;
+      settings.volume = 50; // Set default volume if it was 0
     }
     setIsVolumeOn(!isVolumeOn);
     setIsUserInteracted(true); // Mark user interaction
   };
 
   const handleTrackEnded = () => {
-    setCurrentTrackIndex((prevIndex) => (prevIndex + 1) % tracks.length);
+    setCurrentTrackIndex((prevIndex) => (prevIndex + 1) % tracks.length); // Move to the next track
   };
 
   return (

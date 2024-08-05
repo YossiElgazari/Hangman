@@ -6,15 +6,17 @@ const ScoreBar = ({ score }: { score: number }) => {
   useEffect(() => {
     const incrementScore = () => {
       if (displayScore < score) {
-        setDisplayScore((prev) => Math.max(prev + 1, 0));
+        setDisplayScore((prev) => Math.max(prev + 1, 0)); // Increment displayScore by 1
       }
     };
 
     if (displayScore < score) {
+      // Gradually increment displayScore to match the actual score
       const interval = setInterval(incrementScore, 50);
-      return () => clearInterval(interval);
+      return () => clearInterval(interval); // Clear interval on cleanup
     } else if (displayScore > score) {
-      setDisplayScore(Math.max(score, 0)); // Immediate update if score decreases
+      // Immediate update if the score decreases
+      setDisplayScore(Math.max(score, 0));
     }
   }, [score, displayScore]);
 

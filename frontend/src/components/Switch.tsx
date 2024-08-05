@@ -73,6 +73,7 @@ const moonSvg = (
 const Switch = () => {
   const { settings, updateSettings } = useSettings();
 
+  // Toggle dark mode setting
   const handleToggle = () => {
     updateSettings({ darkMode: !settings.darkMode });
   }
@@ -85,10 +86,11 @@ const Switch = () => {
       <div className="relative w-full h-6">
         <div
           className={`absolute top-0 transition-transform duration-300 ease-in-out transform ${
-            settings.darkMode ? "translate-x-8" : "translate-x-0"
+            settings.darkMode ? "translate-x-8" : "translate-x-0" // Move switch handle based on dark mode setting
           }`}
         >
           <div className="w-6 h-6 rounded-full bg-primary_dark50 dark:bg-secondary_dark shadow-md flex items-center justify-center">
+            {/* Display appropriate icon based on dark mode setting */}
             {settings.darkMode ? moonSvg : sunSvg}
           </div>
         </div>
@@ -98,3 +100,4 @@ const Switch = () => {
 };
 
 export default Switch;
+

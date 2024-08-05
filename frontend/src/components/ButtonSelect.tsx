@@ -22,7 +22,7 @@ const ButtonSelect = ({ label, value, onChange, options }: ButtonSelectProps) =>
                   ? 'bg-gradient-to-b from-gray-200 to-gray-500 border-primary dark:border-primary dark:from-gray-500 dark:to-gray-900 text-white hover:shadow-none'
                   : ''
               }`}
-            onClick={() => onChange(option.value)}
+            onClick={() => onChange(option.value)} // Handle button click and trigger onChange
           >
             {option.label}
           </button>

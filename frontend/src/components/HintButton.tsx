@@ -34,7 +34,8 @@ const HintButton = ({ openModal }: HintButtonProps) => {
       }
     } else {
       setClickedOnce(true);
-      setTimeout(() => setClickedOnce(false), 3000); // Reset after 3 seconds if no second click
+      // Reset after 3 seconds if no second click
+      setTimeout(() => setClickedOnce(false), 2000); 
     }
   };
 
@@ -51,6 +52,12 @@ const HintButton = ({ openModal }: HintButtonProps) => {
       {clickedOnce && (
         <div className="absolute left-1/2 bottom-12 transform -translate-x-1/2 text-center bg-gray-700 text-white text-sm p-2 rounded">
           Click twice
+          <div className="tooltip-arrow"></div>
+        </div>
+      )}
+      {noMoney && (
+        <div className="absolute left-1/2 bottom-12 transform -translate-x-1/2 text-center bg-gray-700 text-white text-sm p-2 rounded">
+          Not enough score
           <div className="tooltip-arrow"></div>
         </div>
       )}
