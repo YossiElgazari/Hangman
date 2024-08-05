@@ -4,18 +4,17 @@ const ScoreBar = ({ score }: { score: number }) => {
   const [displayScore, setDisplayScore] = useState(score);
 
   useEffect(() => {
-    if (score > displayScore) {
-      const interval = setInterval(() => {
-        setDisplayScore((prev) => {
-          if (prev < score) {
-            return prev + 1;
-          } else {
-            clearInterval(interval);
-            return prev;
-          }
-        });
-      }, 50); // adjust the duration for a smoother or faster transition
+    const incrementScore = () => {
+      if (displayScore < score) {
+        setDisplayScore((prev) => Math.max(prev + 1, 0));
+      }
+    };
+
+    if (displayScore < score) {
+      const interval = setInterval(incrementScore, 50);
       return () => clearInterval(interval);
+    } else if (displayScore > score) {
+      setDisplayScore(Math.max(score, 0)); // Immediate update if score decreases
     }
   }, [score, displayScore]);
 

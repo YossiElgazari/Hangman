@@ -14,9 +14,8 @@ const AppContent = () => {
 
   return (
     <div
-      className={`h-screen overflow-hidden bg-primary dark:bg-primary_dark ${
-        settings.darkMode ? "dark" : "light"
-      }`}
+      className={`h-screen overflow-hidden bg-primary dark:bg-primary_dark ${settings.darkMode ? "dark" : "light"
+        }`}
     >
       <Navbar />
       <div className="h-full">

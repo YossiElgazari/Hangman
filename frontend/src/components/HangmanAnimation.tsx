@@ -1,11 +1,5 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { Howl } from 'howler';
-
-// Load the sound
-const wrongGuessSound = new Howl({
-    src: ['/wrong.mp3'], // Replace with your actual sound file path
-});
 
 const HangmanAnimation = ({ wrongGuesses }: { wrongGuesses: number }) => {
     const refs = useRef<(SVGGElement | null)[]>([]);
@@ -17,31 +11,70 @@ const HangmanAnimation = ({ wrongGuesses }: { wrongGuesses: number }) => {
                 gsap.set(ref, { opacity: 0.2 });
             }
         });
-
+    
         // Ensure base is always visible
         if (refs.current[0]) {
             gsap.to(refs.current[0], { opacity: 1 });
         }
-
+    
         // Handle other parts
         refs.current.slice(1).forEach((ref, index) => {
             if (ref) {
                 if (index + 1 === wrongGuesses) {
-                    wrongGuessSound.play(); // Play the sound effect
-                    gsap.to(ref, {
-                        opacity: 1,
-                        scale: 1,
-                        x: 0,
-                        y: 0,
-                        duration: 1,
-                        ease: 'elastic.out(1, 0.5)',
-                    });
+                    gsap.fromTo(ref,
+                        {
+                            opacity: 1,
+                            y: 150,
+                        },
+                        {
+                            y: 0,
+                            opacity: 1,
+                            duration: 1,
+                            ease: 'bounce.out',
+                        });
                 } else if (index + 1 < wrongGuesses) {
                     gsap.to(ref, { opacity: 1, scale: 1, x: 0, y: 0, duration: 0 });
                 }
             }
         });
+    
+        // Jiggle animation of the body from side to side when the game is lost
+        if (wrongGuesses > 6) {
+            const jiggleAnimation = () => {
+                gsap.fromTo(refs.current[5],
+                    { x: -10 },
+                    {
+                        x: 10,
+                        duration: 0.1,
+                        ease: 'power1.inOut',
+                        yoyo: true,
+                        repeat: 5,
+                        onComplete: () => {
+                            gsap.to(refs.current[5], { x: 0 });
+                        }
+                    }
+                );
+                gsap.fromTo(refs.current[6],
+                    { x: -10 },
+                    {
+                        x: 10,
+                        duration: 0.1,
+                        ease: 'power1.inOut',
+                        yoyo: true,
+                        repeat: 5,
+                        onComplete: () => {
+                            gsap.to(refs.current[6], { x: 0 });
+                        }
+                    }
+                );
+            };
+    
+            jiggleAnimation();
+        }
     }, [wrongGuesses]);
+    
+
+    
 
     return (
         <svg width="205" height="346" viewBox="0 0 410 692" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative lg:right-2 xl:right-8">

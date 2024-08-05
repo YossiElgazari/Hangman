@@ -3,6 +3,7 @@ import { createContext, useState, ReactNode, useEffect } from 'react';
 export interface Settings {
   volume: number;
   darkMode: boolean;
+  soundEffectsVolume: number;
   [key: string]: number | boolean | string | undefined;
 }
 
@@ -14,7 +15,7 @@ export interface SettingsContextProps {
 const SettingsContext = createContext<SettingsContextProps | undefined>(undefined);
 
 export const SettingsProvider = ({ children }: { children: ReactNode }) => {
-  const [settings, setSettings] = useState<Settings>({ volume: 50, darkMode: false });
+  const [settings, setSettings] = useState<Settings>({ volume: 50, darkMode: false, soundEffectsVolume: 50 });
 
   const updateSettings = (newSettings: Partial<Settings>) => {
     setSettings((prevSettings) => ({ ...prevSettings, ...newSettings }));

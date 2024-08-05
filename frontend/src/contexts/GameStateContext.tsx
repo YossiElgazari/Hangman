@@ -1,4 +1,4 @@
-import { createContext, useState, ReactNode } from 'react';
+import { createContext, useState, ReactNode } from "react";
 
 type GameState = {
   word: {
@@ -8,6 +8,11 @@ type GameState = {
     category: string;
   } | null;
   isGameStarted: boolean;
+  score: number;
+  gameStatus: "won" | "lost" | null;
+  setGameStatus: (status: "won" | "lost" | null) => void;
+  incrementScore: (points: number) => void;
+  buyHint: () => boolean;
   startGame: (selectedWord: {
     word: string;
     difficulty: string;
@@ -15,10 +20,6 @@ type GameState = {
     category: string;
   }) => void;
   backToMain: () => void;
-  score: number;
-  gameStatus: 'won' | 'lost' | null;
-  setGameStatus: (status: 'won' | 'lost' | null) => void;
-  incrementScore: (points: number) => void;
 };
 
 export const GameStateContext = createContext<GameState | undefined>(undefined);
@@ -32,7 +33,7 @@ export const GameStateProvider = ({ children }: { children: ReactNode }) => {
   } | null>(null);
   const [isGameStarted, setIsGameStarted] = useState(false);
   const [score, setScore] = useState(0);
-  const [gameStatus, setGameStatus] = useState<'won' | 'lost' | null>(null);
+  const [gameStatus, setGameStatus] = useState<"won" | "lost" | null>(null);
 
   const startGame = (selectedWord: {
     word: string;
@@ -53,12 +54,33 @@ export const GameStateProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const incrementScore = (points: number) => {
-    setScore(prevScore => prevScore + points);
+    setScore((prevScore) => prevScore + points);
+  };
+
+
+  const buyHint = () => {
+    if (score - 20 >= 0) {
+      incrementScore(-20);
+      return true;
+    }
+    return false;
   };
 
   return (
-    <GameStateContext.Provider value={{ word, score, isGameStarted, startGame, backToMain, incrementScore,gameStatus, setGameStatus}}>
+    <GameStateContext.Provider
+      value={{
+        word,
+        score,
+        isGameStarted,
+        startGame,
+        backToMain,
+        incrementScore,
+        gameStatus,
+        buyHint,
+        setGameStatus,
+      }}
+    >
       {children}
     </GameStateContext.Provider>
   );
-}
+};

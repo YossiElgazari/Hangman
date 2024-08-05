@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useGameState } from "../hooks/useGameState";
 
 type KeyboardProps = {
   onGuess: (letter: string) => void;
@@ -7,6 +8,7 @@ type KeyboardProps = {
 
 const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const {gameStatus} = useGameState();
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
@@ -17,10 +19,13 @@ const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
     };
 
     window.addEventListener("keydown", handleKeyPress);
+    if (gameStatus !== null) {
+      window.removeEventListener("keydown", handleKeyPress)
+    }
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, [guessedLetters, onGuess, letters]);
+  }, [guessedLetters, onGuess, letters, gameStatus]);
 
   const renderButton = (letter: string) => (
     <div key={letter} className="flex justify-center items-center">

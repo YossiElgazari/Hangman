@@ -27,8 +27,8 @@ describe('Score Routes', () => {
 
     const response = await request(app).get('/api/scores');
     expect(response.statusCode).toBe(200);
-    expect(response.body).toBeInstanceOf(Array);
-    const user = response.body.find(u => u.username === newScore.username);
+    expect(response.body.scores).toBeInstanceOf(Array);
+    const user = response.body.scores.find(u => u.username === newScore.username);
     expect(user).toHaveProperty('username', newScore.username);
     expect(user).toHaveProperty('score', newScore.score);
   });

@@ -30,9 +30,6 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
     };
 
     fetchData();
-
-    
-
     setIsVisible(true);
   }, []);
 
@@ -43,9 +40,8 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
 
   return (
     <div
-      className={`fixed inset-0 w-full h-full flex items-center justify-center z-20 bg-black bg-opacity-50 transition-opacity p-2 duration-300 ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
       onClick={handleClose}
     >
       <div
@@ -85,10 +81,10 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
       </div>
     </div>
   );
-  
-  
-  
-   
+
+
+
+
 };
 
 export default LeaderBoardModal;

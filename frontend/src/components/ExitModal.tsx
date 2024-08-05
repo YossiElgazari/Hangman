@@ -25,20 +25,19 @@ const ExitModal = ({ closeModal }: ExitModalProps) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
+    className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
       }`}
-      onClick={handleClose}
-    >
+    onClick={handleClose}
+  >
       <div
-        className="bg-white p-6 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark50 dark:text-primary text-secondary p-6 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()}
         style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-20px)' }}
       >
         <XButton handleClose={handleClose} />
         <div>
           <h2 className="text-xl font-bold mb-4">Exit Game</h2>
-          <p className="text-gray-700">
+          <p>
             Are you sure you want to exit the game?
           </p>
           <div className="flex justify-center items-center gap-4 mt-6">

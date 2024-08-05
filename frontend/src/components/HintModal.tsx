@@ -21,9 +21,8 @@ const HintModal = ({ hint, onClose }: HintModalProps) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 dark:bg-slate-700 dark:bg-opacity-75 bg-opacity-75 flex items-center justify-center transition-opacity duration-300  ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
       onClick={handleClose}
     >
       <div
@@ -36,7 +35,7 @@ const HintModal = ({ hint, onClose }: HintModalProps) => {
         <p className="text-gray-700 dark:text-secondary_dark text-lg lg:text-body1 mt-2">{hint}</p>
         <div className="mt-4 flex justify-center">
           <MyButton onClick={handleClose} size="small">
-            Close 
+            Close
           </MyButton>
         </div>
       </div>

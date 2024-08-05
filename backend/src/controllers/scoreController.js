@@ -31,19 +31,24 @@ exports.getScores = async (req, res) => {
 
 exports.addScore = async (req, res) => {
   const { username, score } = req.body;
-  const usernameExists = await Score.findOne({ username });
-  if (usernameExists) {
-    if (score > usernameExists.score) {
-      usernameExists.score = score;
-      try {
+
+  try {
+    const usernameExists = await Score.findOne({ username });
+    if (usernameExists) {
+      if (score > usernameExists.score) {
+        usernameExists.score = score;
         await usernameExists.save();
-        res.status(201).json(usernameExists);
-      } catch (err) {
-        res.status(500).json({ message: err.message });
+        return res.status(201).json(usernameExists); // 200 for successful update
+      } else {
+        return res.status(201).json(usernameExists); // 200 as the request is successful, but no update was necessary
       }
     } else {
-      res.status(201).json(usernameExists);
+      const newScore = new Score({ username, score });
+      await newScore.save();
+      return res.status(201).json(newScore); // 201 for successful creation
     }
-    return;
+  } catch (err) {
+    return res.status(500).json({ message: err.message });
   }
 };
+

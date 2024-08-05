@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { tracks } from "./tracks";
+import { tracks } from "../types/tracks";
 import { useSettings } from "../hooks/useSettings";
 import PlayLine from "./PlayLine";
 

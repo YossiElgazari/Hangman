@@ -1,6 +1,8 @@
 import { useState } from "react";
 import hintIcon from "../assets/hinticon.svg";
 import hintIconHover from "../assets/hinticonhover.svg";
+import hintNoMoney from "../assets/hintnomoney.svg";
+import { useGameState } from "../hooks/useGameState";
 
 type HintButtonProps = {
   openModal: () => void;
@@ -9,6 +11,8 @@ type HintButtonProps = {
 const HintButton = ({ openModal }: HintButtonProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const [clickedOnce, setClickedOnce] = useState(false);
+  const [noMoney, setNoMoney] = useState(false);
+  const { buyHint } = useGameState();
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -20,7 +24,14 @@ const HintButton = ({ openModal }: HintButtonProps) => {
 
   const handleClick = () => {
     if (clickedOnce) {
-      openModal();
+      const res = buyHint();
+      if (res) {
+        openModal();
+      } else {
+        // Activate red hint icon for 2 seconds
+        setNoMoney(true);
+        setTimeout(() => setNoMoney(false), 2000);
+      }
     } else {
       setClickedOnce(true);
       setTimeout(() => setClickedOnce(false), 3000); // Reset after 3 seconds if no second click
@@ -30,9 +41,9 @@ const HintButton = ({ openModal }: HintButtonProps) => {
   return (
     <div className="relative">
       <img
-        src={isHovered ? hintIconHover : hintIcon}
+        src={noMoney ? hintNoMoney : isHovered ? hintIconHover : hintIcon}
         alt="hint"
-        className="w-10 h-10 cursor-pointer "
+        className="w-10 h-10 cursor-pointer"
         onClick={handleClick}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

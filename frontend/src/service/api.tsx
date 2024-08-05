@@ -22,15 +22,26 @@ export const fetchTopScores = async () => {
   }
 };
 
-export const addScore = async ({ username, score }: { username: string, score: number }) => {
+export const addScore = async ({ username, score }: { username: string; score: number }) => {
   try {
     const response = await axios.post(`${API_URL}/scores`, { username, score });
-    if (response.status !== 201) {
-      console.log(response.data.message);
-    }
     return response.data;
   } catch (error) {
-    console.error('Error adding score:', error);
-    return error;
+    if (axios.isAxiosError(error)) {
+      if (error.response) {
+        // Server responded with a status other than 200 range
+        if (error.response.status === 400) {
+          return { message: 'Inappropriate username' };
+        }
+        return { message: `Server error: ${error.response.statusText}` };
+      }
+      // Network error or no response received
+      console.error('Error adding score:', error.message);
+      return { message: 'An error occurred while adding the score. Please try again later.' };
+    } else {
+      // Generic error handling
+      console.error('Unexpected error:', error);
+      return { message: 'An unexpected error occurred. Please try again later.' };
+    }
   }
 };

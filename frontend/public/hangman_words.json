@@ -1,0 +1,5978 @@
+[
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "easy",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "easy",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "easy",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "easy",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "easy",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "easy",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "easy",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "easy",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "easy",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "easy",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "easy",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "easy",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "easy",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "easy",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "easy",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "easy",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "easy",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "easy",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "easy",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "easy",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "easy",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "easy",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "easy",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "easy",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "easy",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "easy",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "easy",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "easy",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "easy",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "easy",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "easy",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "easy",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "easy",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "easy",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "easy",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "easy",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "easy",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "easy",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "easy",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "easy",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "easy",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "easy",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "easy",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "easy",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "easy",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "easy",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "easy",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "easy",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "easy",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "easy",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "easy",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "easy",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "easy",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "easy",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "easy",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "easy",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "easy",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "easy",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "easy",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "easy",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "easy",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "easy",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "easy",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "easy",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "medium",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "medium",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "medium",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "medium",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "medium",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "medium",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "medium",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "medium",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "medium",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "medium",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "medium",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "medium",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "medium",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "medium",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "medium",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "medium",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "medium",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "medium",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "medium",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "medium",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "medium",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "medium",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "medium",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "medium",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "medium",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "medium",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "medium",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "medium",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "medium",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "medium",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "medium",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "medium",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "medium",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "medium",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "medium",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "medium",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "medium",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "medium",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "medium",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "hard",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "hard",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "hard",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "hard",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "hard",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "hard",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "hard",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Tiger",
+        "difficulty": "hard",
+        "hint": "Striped big cat"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "hard",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "hard",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "hard",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "hard",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "hard",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Whale",
+        "difficulty": "hard",
+        "hint": "Largest mammal in the ocean"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "hard",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "hard",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "hard",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Cheetah",
+        "difficulty": "hard",
+        "hint": "Fastest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "hard",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "hard",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "hard",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "hard",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "hard",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "hard",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Zebra",
+        "difficulty": "hard",
+        "hint": "Striped horse-like animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "hard",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "hard",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "hard",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "hard",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "hard",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "hard",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Shark",
+        "difficulty": "hard",
+        "hint": "Predatory fish with sharp teeth"
+    },
+    {
+        "category": "Animals",
+        "word": "Giraffe",
+        "difficulty": "hard",
+        "hint": "Tallest land animal"
+    },
+    {
+        "category": "Animals",
+        "word": "Bear",
+        "difficulty": "hard",
+        "hint": "Large mammal that hibernates"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "hard",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "hard",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "hard",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "hard",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Parrot",
+        "difficulty": "hard",
+        "hint": "Bird known for its ability to mimic sounds"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "hard",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "hard",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Animals",
+        "word": "Horse",
+        "difficulty": "hard",
+        "hint": "Large mammal often used for riding"
+    },
+    {
+        "category": "Animals",
+        "word": "Eagle",
+        "difficulty": "hard",
+        "hint": "Bird of prey with excellent vision"
+    },
+    {
+        "category": "Animals",
+        "word": "Elephant",
+        "difficulty": "hard",
+        "hint": "Large mammal with a trunk"
+    },
+    {
+        "category": "Animals",
+        "word": "Dolphin",
+        "difficulty": "hard",
+        "hint": "Intelligent marine mammal"
+    },
+    {
+        "category": "Animals",
+        "word": "Wolf",
+        "difficulty": "hard",
+        "hint": "Pack animal known for its howls"
+    },
+    {
+        "category": "Animals",
+        "word": "Deer",
+        "difficulty": "hard",
+        "hint": "Animal known for its antlers"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "hard",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Kangaroo",
+        "difficulty": "hard",
+        "hint": "Marsupial with strong hind legs"
+    },
+    {
+        "category": "Animals",
+        "word": "Rabbit",
+        "difficulty": "hard",
+        "hint": "Small mammal with long ears"
+    },
+    {
+        "category": "Animals",
+        "word": "Fox",
+        "difficulty": "hard",
+        "hint": "Cunning animal known for its reddish fur"
+    },
+    {
+        "category": "Animals",
+        "word": "Penguin",
+        "difficulty": "hard",
+        "hint": "A flightless bird that swims"
+    },
+    {
+        "category": "Animals",
+        "word": "Lion",
+        "difficulty": "hard",
+        "hint": "Known as the king of the jungle"
+    },
+    {
+        "category": "Animals",
+        "word": "Monkey",
+        "difficulty": "hard",
+        "hint": "Primate known for its intelligence"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "easy",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "easy",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "easy",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "easy",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "easy",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "easy",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "easy",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "easy",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "easy",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "easy",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "easy",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "easy",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "easy",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "easy",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "easy",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "easy",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "easy",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "easy",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "easy",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "easy",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "easy",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "easy",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "easy",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "easy",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "easy",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "easy",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "easy",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "easy",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "easy",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "easy",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "easy",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "easy",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "easy",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "easy",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "easy",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "easy",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "easy",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "easy",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "easy",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "easy",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "easy",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "easy",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "easy",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "easy",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "easy",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "easy",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "easy",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "easy",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "easy",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "easy",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "easy",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "medium",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "medium",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "medium",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "medium",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "medium",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "medium",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "medium",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "medium",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "medium",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "medium",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "medium",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "medium",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "medium",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "medium",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "medium",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "medium",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "medium",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "medium",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "medium",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "medium",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "medium",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "medium",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "medium",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "medium",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "medium",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "medium",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "medium",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "medium",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "medium",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "medium",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "medium",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "medium",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "medium",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "medium",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "medium",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "medium",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "medium",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "medium",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "medium",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "medium",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "medium",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "medium",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Strawberry",
+        "difficulty": "medium",
+        "hint": "Red fruit with tiny seeds on its surface"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "medium",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "medium",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "medium",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "medium",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "medium",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "hard",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "hard",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "hard",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "hard",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "hard",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "hard",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "hard",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "hard",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "hard",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blueberry",
+        "difficulty": "hard",
+        "hint": "Small blue fruit, often used in desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Avocado",
+        "difficulty": "hard",
+        "hint": "Fruit with creamy green flesh and large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "hard",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "hard",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "hard",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "hard",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Cherry",
+        "difficulty": "hard",
+        "hint": "Small red fruit often found on top of desserts"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "hard",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "hard",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "hard",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Blackberry",
+        "difficulty": "hard",
+        "hint": "Dark fruit similar to raspberry"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "hard",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "hard",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Banana",
+        "difficulty": "hard",
+        "hint": "Long yellow fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "hard",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Grapes",
+        "difficulty": "hard",
+        "hint": "Small fruit, can be made into wine"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "hard",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Lemon",
+        "difficulty": "hard",
+        "hint": "Sour yellow citrus fruit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Raspberry",
+        "difficulty": "hard",
+        "hint": "Small red fruit with a tart flavor"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "hard",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Kiwi",
+        "difficulty": "hard",
+        "hint": "Small brown fruit with green flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Apple",
+        "difficulty": "hard",
+        "hint": "Red or green fruit, often keeps the doctor away"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "hard",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Coconut",
+        "difficulty": "hard",
+        "hint": "Fruit with hard shell and white flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Plum",
+        "difficulty": "hard",
+        "hint": "Small purple fruit with a stone inside"
+    },
+    {
+        "category": "Fruits",
+        "word": "Mango",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with a large pit"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pear",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a grainy texture"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Papaya",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with orange flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Watermelon",
+        "difficulty": "hard",
+        "hint": "Large fruit with a green rind and red flesh"
+    },
+    {
+        "category": "Fruits",
+        "word": "Peach",
+        "difficulty": "hard",
+        "hint": "Sweet fruit with a fuzzy skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Fruits",
+        "word": "Pineapple",
+        "difficulty": "hard",
+        "hint": "Tropical fruit with spiky skin"
+    },
+    {
+        "category": "Fruits",
+        "word": "Orange",
+        "difficulty": "hard",
+        "hint": "Citrus fruit, known for vitamin C"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "easy",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "easy",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "easy",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "easy",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "easy",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "easy",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "easy",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "easy",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "easy",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "easy",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "easy",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "easy",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "easy",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "easy",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "easy",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "easy",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "easy",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "easy",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "easy",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "easy",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "easy",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "easy",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "easy",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "easy",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "easy",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "easy",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "easy",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "easy",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "easy",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "easy",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "easy",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "easy",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "easy",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "easy",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "easy",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "easy",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "easy",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "easy",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "easy",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "easy",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "easy",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "easy",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "easy",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "easy",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "easy",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "easy",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "easy",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "easy",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "easy",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "easy",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "easy",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "easy",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "easy",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "easy",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "easy",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "easy",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "easy",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "medium",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "medium",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "medium",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "medium",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "medium",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "medium",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "medium",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "medium",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "medium",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "medium",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "medium",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "medium",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "medium",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "medium",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "medium",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "medium",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "medium",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "medium",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "medium",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "medium",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "medium",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "medium",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "medium",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "medium",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "medium",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "medium",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "medium",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "medium",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "medium",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "medium",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "medium",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "medium",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "medium",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "medium",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "medium",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "medium",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "medium",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "medium",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "medium",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "medium",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "medium",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "medium",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "medium",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "medium",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "medium",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "medium",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "medium",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "medium",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "medium",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "medium",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "medium",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "medium",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "medium",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "medium",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "medium",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "medium",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "medium",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "medium",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "medium",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "medium",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "medium",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "medium",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "medium",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "medium",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "medium",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "medium",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "hard",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "hard",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "hard",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "hard",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "hard",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "hard",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "hard",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "hard",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "hard",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "hard",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "hard",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "hard",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "hard",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "hard",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "hard",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "hard",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "hard",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "hard",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "hard",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "hard",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Spain",
+        "difficulty": "hard",
+        "hint": "Country known for its flamenco dance and paella"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "hard",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "hard",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "hard",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "hard",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "hard",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "hard",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "hard",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "hard",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "hard",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "hard",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "hard",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "hard",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "hard",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "hard",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Australia",
+        "difficulty": "hard",
+        "hint": "Country and continent known for kangaroos"
+    },
+    {
+        "category": "Countries",
+        "word": "Italy",
+        "difficulty": "hard",
+        "hint": "Famous for its cuisine and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Argentina",
+        "difficulty": "hard",
+        "hint": "Country known for tango and beef"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "hard",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "France",
+        "difficulty": "hard",
+        "hint": "Known for the Eiffel Tower"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Countries",
+        "word": "Greece",
+        "difficulty": "hard",
+        "hint": "Country known for its ancient ruins and islands"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Egypt",
+        "difficulty": "hard",
+        "hint": "Famous for its pyramids and ancient history"
+    },
+    {
+        "category": "Countries",
+        "word": "New Zealand",
+        "difficulty": "hard",
+        "hint": "Country known for its stunning landscapes"
+    },
+    {
+        "category": "Countries",
+        "word": "Russia",
+        "difficulty": "hard",
+        "hint": "Largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "South Africa",
+        "difficulty": "hard",
+        "hint": "Country at the southern tip of Africa"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "hard",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Japan",
+        "difficulty": "hard",
+        "hint": "Island nation known for sushi and technology"
+    },
+    {
+        "category": "Countries",
+        "word": "Kenya",
+        "difficulty": "hard",
+        "hint": "Country famous for its wildlife and safaris"
+    },
+    {
+        "category": "Countries",
+        "word": "Thailand",
+        "difficulty": "hard",
+        "hint": "Country known for its beaches and street food"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Brazil",
+        "difficulty": "hard",
+        "hint": "Famous for Carnival and the Amazon rainforest"
+    },
+    {
+        "category": "Countries",
+        "word": "India",
+        "difficulty": "hard",
+        "hint": "Known for its diverse culture and cuisine"
+    },
+    {
+        "category": "Countries",
+        "word": "Germany",
+        "difficulty": "hard",
+        "hint": "Country known for its engineering and beer"
+    },
+    {
+        "category": "Countries",
+        "word": "Canada",
+        "difficulty": "hard",
+        "hint": "Second-largest country in the world by area"
+    },
+    {
+        "category": "Countries",
+        "word": "Mexico",
+        "difficulty": "hard",
+        "hint": "Country known for its spicy food"
+    },
+    {
+        "category": "Countries",
+        "word": "Turkey",
+        "difficulty": "hard",
+        "hint": "Country that straddles Europe and Asia"
+    },
+    {
+        "category": "Countries",
+        "word": "China",
+        "difficulty": "hard",
+        "hint": "Most populous country in the world"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "easy",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "easy",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "easy",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "easy",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "easy",
+        "hint": "Dish of mixed raw vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "easy",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "easy",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "easy",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "easy",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "easy",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "easy",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "easy",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "easy",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "easy",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "easy",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "easy",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "easy",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "easy",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "easy",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "easy",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "easy",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "easy",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "easy",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "easy",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "easy",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "easy",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "easy",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "easy",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "easy",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "easy",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "easy",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "easy",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "easy",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "easy",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "easy",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "easy",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "easy",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "easy",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "easy",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "easy",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "easy",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "easy",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "easy",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "easy",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "easy",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "easy",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "easy",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "easy",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "easy",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "easy",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "easy",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "easy",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "medium",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "medium",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "medium",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "medium",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "medium",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "medium",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "medium",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "medium",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "medium",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "medium",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "medium",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "medium",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "medium",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "medium",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "medium",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "medium",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "medium",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "medium",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "medium",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "medium",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "medium",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "medium",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "medium",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "medium",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "medium",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "medium",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "medium",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "medium",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "medium",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "medium",
+        "hint": "Dish of mixed raw vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "medium",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "medium",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "medium",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "medium",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "medium",
+        "hint": "Dish of mixed raw vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "medium",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "medium",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "medium",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "medium",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "medium",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "medium",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "medium",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "medium",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "medium",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "medium",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "medium",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "medium",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "medium",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "medium",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "hard",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Taco",
+        "difficulty": "hard",
+        "hint": "Mexican dish with folded or rolled tortilla"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "hard",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "hard",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "hard",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "hard",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "hard",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "hard",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "hard",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "hard",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "hard",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "hard",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "hard",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "hard",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "hard",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "hard",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "hard",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "hard",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "hard",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "hard",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Pasta",
+        "difficulty": "hard",
+        "hint": "Italian dish made from wheat and water"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "hard",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "hard",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Cheese",
+        "difficulty": "hard",
+        "hint": "Dairy product made from milk"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "hard",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "hard",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "hard",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "hard",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "hard",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "hard",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Pancake",
+        "difficulty": "hard",
+        "hint": "Flat cake cooked on a griddle or frying pan"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "hard",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "hard",
+        "hint": "Dish of mixed raw vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Sausage",
+        "difficulty": "hard",
+        "hint": "Ground meat stuffed into a casing"
+    },
+    {
+        "category": "Food",
+        "word": "Fries",
+        "difficulty": "hard",
+        "hint": "Thinly sliced potatoes deep-fried until crispy"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "hard",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Omelette",
+        "difficulty": "hard",
+        "hint": "Dish made from beaten eggs cooked in a pan"
+    },
+    {
+        "category": "Food",
+        "word": "Pizza",
+        "difficulty": "hard",
+        "hint": "Popular Italian dish with cheese and toppings"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "hard",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Rice",
+        "difficulty": "hard",
+        "hint": "Staple grain used in many cuisines"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "hard",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Bread",
+        "difficulty": "hard",
+        "hint": "Staple food made from dough of flour and water"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "hard",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "hard",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Chocolate",
+        "difficulty": "hard",
+        "hint": "Sweet treat made from cacao beans"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Burger",
+        "difficulty": "hard",
+        "hint": "Sandwich with a patty, often beef, in a bun"
+    },
+    {
+        "category": "Food",
+        "word": "Sandwich",
+        "difficulty": "hard",
+        "hint": "Two slices of bread with filling in between"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "hard",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Cake",
+        "difficulty": "hard",
+        "hint": "Baked dessert often served at celebrations"
+    },
+    {
+        "category": "Food",
+        "word": "Sushi",
+        "difficulty": "hard",
+        "hint": "Japanese dish with vinegared rice and seafood"
+    },
+    {
+        "category": "Food",
+        "word": "Steak",
+        "difficulty": "hard",
+        "hint": "Cut of meat, often beef, cooked by grilling"
+    },
+    {
+        "category": "Food",
+        "word": "Ice Cream",
+        "difficulty": "hard",
+        "hint": "Frozen dessert made from cream and sugar"
+    },
+    {
+        "category": "Food",
+        "word": "Curry",
+        "difficulty": "hard",
+        "hint": "Spicy dish often made with meat and vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "hard",
+        "hint": "Dish of mixed raw vegetables"
+    },
+    {
+        "category": "Food",
+        "word": "Soup",
+        "difficulty": "hard",
+        "hint": "Liquid dish, typically savory and hot"
+    },
+    {
+        "category": "Food",
+        "word": "Salad",
+        "difficulty": "hard",
+        "hint": "Dish of mixed raw vegetables"
+    }
+]

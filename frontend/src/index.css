@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS */
+
 * {
   @apply select-none;
 }
 
+body {
+  @apply bg-primary dark:bg-primary_dark;
+}
+/* Modals animation */
 
 @keyframes drop {
   0% {
@@ -44,6 +50,8 @@
   animation: fade-in 0.3s ease-in, fade-out 0.3s ease-out 2.7s;
 }
 
+/* Keyboard animation */
+
 @keyframes reveal {
   0% {
     opacity: 0;
@@ -70,6 +78,8 @@
 .progress .knob {
   @apply bg-slate-500  w-4 h-4 absolute rounded-md top-1/2 transform -translate-y-1/2 transition-all duration-100 ease-linear  pointer-events-none -translate-x-1/2;
 }
+
+/* Speaker Animation */
 
 @keyframes fadeInOut {
   0%,
@@ -127,7 +137,6 @@
 }
 
 
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -158,22 +167,4 @@
   animation: scroll 5s linear infinite;
 }
 
-/* GameBoard css */
 
-.hexagon {
-  position: relative;
-  width: 14rem;
-  height: 14rem;
-  margin: 17.32px 0;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  clip-path: polygon(
-    25% 6.7%,
-    75% 6.7%,
-    100% 50%,
-    75% 93.3%,
-    25% 93.3%,
-    0% 50%
-  );
-}
