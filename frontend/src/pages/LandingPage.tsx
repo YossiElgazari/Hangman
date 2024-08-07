@@ -186,7 +186,7 @@ const LandingPage = () => {
             className="self-center w-[26rem] opacity-0"
           />
         </div>
-        <div className="flex flex-col items-center mt-12 2k:mt-72">
+        <div className="flex flex-col p-4 items-center mt-12 2k:mt-72">
           <MyButton
             ref={playButtonRef}
             onClick={() => openModal(setIsCategoryModalOpen)}

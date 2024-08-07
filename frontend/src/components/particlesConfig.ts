@@ -14,7 +14,7 @@ export const options: ISourceOptions = {
       value: "#000000",
     },
     number: {
-      value: 100,
+      value: 200,
     },
     links: {
       distance: 150,

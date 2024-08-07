@@ -14,7 +14,7 @@ const AppContent = () => {
 
   return (
     <div
-      className={`h-screen overflow-hidden bg-primary dark:bg-primary_dark ${
+      className={`h-screen md:overflow-hidden bg-primary dark:bg-primary_dark ${
         settings.darkMode ? "dark" : "light"
       }`}
       data-testid="app-content"
