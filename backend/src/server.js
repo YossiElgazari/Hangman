@@ -21,7 +21,7 @@ app.use('/api', wordRoutes);
 
 // Start the server
 const server = app.listen(port, () => {
-  console.log(`Server running at https://hangman-kxt2.onrender.com/${port}`);
+  console.log(`Server running at https://hangman-kxt2.onrender.com`);
 });
 
 module.exports = { server, app };
