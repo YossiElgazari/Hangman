@@ -170,13 +170,13 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="landing-page" data-testid="landing-page">
+      <div className="landing-page h-full" data-testid="landing-page">
         <div className="flex flex-col justify-center items-center relative ">
           <ParticlesBackground />
           <img
             ref={imgRef}
             src={text}
-            className="self-center max-w-full h-auto max-h-80 md:max-h-96"
+            className=" self-center max-w-full h-auto max-h-80 md:max-h-96"
             alt="Hangman Game"
             draggable="false"
           />
