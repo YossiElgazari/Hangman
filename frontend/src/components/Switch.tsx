@@ -82,6 +82,7 @@ const Switch = () => {
     <div
       className="flex items-center cursor-pointer w-16 p-0.5 rounded-full border-2 border-secondary dark:border-secondary_dark"
       onClick={handleToggle}
+      data-testid="switch"
     >
       <div className="relative w-full h-6">
         <div

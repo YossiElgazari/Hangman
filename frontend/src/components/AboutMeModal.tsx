@@ -14,14 +14,16 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
   const handleClose = () => {
     setIsVisible(false);
     // Delay closing the modal to allow for transition
-    setTimeout(() => closeModal(), 300); 
+    setTimeout(() => closeModal(), 300);
   };
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"
-        }`}
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
+        isVisible ? "opacity-100" : "opacity-0"
+      }`}
       onClick={handleClose}
+      data-testid="about-me-modal"
     >
       <div
         className="bg-primary dark:bg-primary_dark p-4 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl relative font-outfit transition-transform duration-300 transform"
@@ -32,7 +34,7 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
           className="absolute inset-0 bg-center opacity-20 rounded-lg "
           style={{ backgroundImage: `url(${logo})`, backgroundSize: "150%" }}
         ></div>
-        <XButton handleClose={handleClose} />
+        <XButton dataTestId="close-about-me-modal" handleClose={handleClose} />
         <div className="relative flex flex-col items-center">
           <h2 className="text-2xl dark:text-secondary_dark font-bold mb-4">
             About Me

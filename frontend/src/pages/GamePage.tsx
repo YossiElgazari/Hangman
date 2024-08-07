@@ -51,7 +51,7 @@ const GamePage = () => {
     };
 
     animationStartGamePage();
-  }, []);
+  }, [word]);
 
   useEffect(() => {
     // Update volume based on settings
@@ -114,7 +114,7 @@ const GamePage = () => {
 
   return (
     <>
-      <div className="game-page flex flex-col w-full h-[calc(100vh-56px)] p-4">
+      <div data-testid="game-page" className="game-page flex flex-col w-full h-[calc(100vh-56px)] p-4">
         <div className="flex flex-col justify-center items-center mb-2 md:mt-10 xl:mt-2 lg:mb-4">
           <div className="flex flex-row justify-center items-center">
             <p className="font-permanent tracking-[0.2em] text-headline2 font-semibold text-center text-gray-700 dark:text-secondary_dark50  mr-2">

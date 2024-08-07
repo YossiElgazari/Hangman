@@ -1,3 +1,4 @@
-GET http://localhost:3001/api/scores
+GET http://localhost:3001/api/word?category=Food&difficulty=easy
 Content-Type: application/json
 Connection: keep-alive
+

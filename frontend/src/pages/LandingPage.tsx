@@ -191,6 +191,7 @@ const LandingPage = () => {
             size="large"
             className="opacity-0 hover:float-button"
             width="250px"
+            dataTestId="play-now-button"
           >
             Play Now
           </MyButton>
@@ -200,6 +201,7 @@ const LandingPage = () => {
             size="large"
             className="mt-4 opacity-0 hover:float-button"
             width="250px"
+            dataTestId="about-game-button"
           >
             About The Game
           </MyButton>
@@ -209,6 +211,7 @@ const LandingPage = () => {
             size="large"
             className="mt-4 opacity-0 hover:float-button"
             width="250px"
+            dataTestId="about-me-button"
           >
             About Me
           </MyButton>
@@ -232,7 +235,7 @@ const LandingPage = () => {
       {isMeModalOpen && (
         <AboutMeModal closeModal={() => closeModal(setIsMeModalOpen)} />
       )}
-      <LeaderBoard onClick={() => openModal(setIsLeaderboardOpen)} />
+      <LeaderBoard dataTestId="leaderboard-button" onClick={() => openModal(setIsLeaderboardOpen)} />
       {isLeaderboardOpen && (
         <LeaderBoardModal onClose={() => closeModal(setIsLeaderboardOpen)} />
       )}

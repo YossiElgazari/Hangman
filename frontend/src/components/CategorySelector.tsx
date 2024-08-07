@@ -61,7 +61,7 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
         </div>
       )}
       <div className="flex justify-center mt-4">
-        <MyButton onClick={handleStartGame}>Start Game</MyButton>
+        <MyButton dataTestId="start-game-button" onClick={handleStartGame}>Start Game</MyButton>
       </div>
     </div>
   );

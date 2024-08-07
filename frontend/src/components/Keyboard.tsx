@@ -41,6 +41,7 @@ const Keyboard = ({ onGuess, guessedLetters }: KeyboardProps) => {
           }`}
         onClick={() => onGuess(letter.toLowerCase())}
         disabled={guessedLetters.includes(letter.toLowerCase())}
+        data-testid={`keyboard-${letter}`}
       >
         {letter}
       </button>

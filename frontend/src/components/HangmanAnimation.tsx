@@ -77,7 +77,7 @@ const HangmanAnimation = ({ wrongGuesses }: { wrongGuesses: number }) => {
     
 
     return (
-        <svg width="205" height="346" viewBox="0 0 410 692" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative lg:right-2 xl:right-8">
+        <svg data-testid="hangman-animation" width="205" height="346" viewBox="0 0 410 692" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative lg:right-2 xl:right-8">
             {/* Group 1: Base */}
             <g ref={el => refs.current[0] = el}>
                 <path d="M217.5 692C212.806 692 209 688.194 209 683.5C209 678.806 212.806 675 217.5 675H401.5C406.194 675 410 678.806 410 683.5C410 688.194 406.194 692 401.5 692H217.5Z" fill="black" />

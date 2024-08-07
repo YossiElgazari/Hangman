@@ -195,15 +195,16 @@ const SettingsMenu = () => {
         onClick={toggleMenu}
       >
         {isMenuOpen ? (
-          <span className="text-secondary dark:text-secondary_dark50 text-body1 lg:text-headline4 hover:opacity-75 xl:text-headline4 ">
+          <span data-testid="settings-close" className="text-secondary dark:text-secondary_dark50 text-body1 lg:text-headline4 hover:opacity-75 xl:text-headline4 ">
             ✕
           </span>
         ) : (
-          <span className="hover:opacity-75">{settingsIcon}</span>
+          <span className="hover:opacity-75" data-testid="settings-menu">{settingsIcon}</span>
         )}
       </div>
       {isMenuVisible && (
         <div
+          data-testid="settings-drop"
           className={`absolute top-12 left-2 bg-slate-300 dark:bg-primary_dark dark:text-secondary_dark shadow-lg rounded-lg w-40 transition-opacity duration-300 ${
             isMenuOpen ? "opacity-100 animate-drop" : "opacity-0"
           }`}

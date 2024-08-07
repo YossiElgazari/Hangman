@@ -61,6 +61,7 @@ const EndGameModal = ({
   return (
     <div className="fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300">
       <div
+       data-testid="endgame-modal"
         ref={modalRef}
         className="bg-primary dark:bg-primary_dark border border-primary_dark dark:border-primary p-6 rounded-xl w-96 text-center shadow-lg"
       >

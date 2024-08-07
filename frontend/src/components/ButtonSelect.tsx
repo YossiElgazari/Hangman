@@ -15,6 +15,7 @@ const ButtonSelect = ({ label, value, onChange, options }: ButtonSelectProps) =>
       <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6">
         {options.map((option) => (
           <button
+            data-testid={`button-select-${option.value.toLowerCase()}`}
             key={option.value}
             className={`px-2 py-1 border border-primary50 dark:border-primary_dark50 sm:px-4 sm:py-2 rounded-full hover:shadow-xl transition duration-300 bg-primary50 dark:bg-primary_dark50 text-primary_dark 
               dark:text-primary hover:bg-gray-200 dark:hover:bg-gray-700 hover:text-primary_dark hover:border-primary ${

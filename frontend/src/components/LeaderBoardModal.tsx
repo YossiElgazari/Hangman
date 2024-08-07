@@ -42,9 +42,11 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
-        }`}
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
+        isVisible ? "opacity-100" : "opacity-0"
+      }`}
       onClick={handleClose}
+      data-testid="leaderboard-modal"
     >
       <div
         className="LeaderBoard-modal bg-primary dark:bg-primary_dark border-4 border-primary_dark dark:border-primary rounded-3xl w-[36rem] text-center p-4 px-8 transition-transform duration-300 transform"
@@ -66,10 +68,18 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
                     <img
                       src={`/${index + 1}medal.svg`}
                       alt={`${index + 1}medal`}
-                      className={`${index === 0 ? "w-10 h-10" : index === 1 ? "w-9 h-9" : "w-8 h-8"}`}
+                      className={`${
+                        index === 0
+                          ? "w-10 h-10"
+                          : index === 1
+                          ? "w-9 h-9"
+                          : "w-8 h-8"
+                      }`}
                     />
                   ) : (
-                    <span className="w-8 h-8 flex items-center justify-center text-center">{index + 1}</span>
+                    <span className="w-8 h-8 flex items-center justify-center text-center">
+                      {index + 1}
+                    </span>
                   )}
                 </div>
                 <span>{entry.username}</span>
@@ -78,7 +88,11 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
             </div>
           ))}
         </div>
-        <MyButton onClick={handleClose} size="small">
+        <MyButton
+          dataTestId="close-leaderboard-modal"
+          onClick={handleClose}
+          size="small"
+        >
           Close
         </MyButton>
       </div>

@@ -1,6 +1,7 @@
 const Word = require('../models/wordModel');
 
 exports.getWord = async (req, res) => {
+    console.log('GET /word');
     // Function to select a random element from an array
     const random = (options) => options[Math.floor(Math.random() * options.length)];
     

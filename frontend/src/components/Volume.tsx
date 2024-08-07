@@ -43,7 +43,7 @@ const Volume = () => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center" data-testid="volume-control">
       <audio
         ref={audioRef}
         src={currentTrack.src}
@@ -54,6 +54,7 @@ const Volume = () => {
       <div
         className="w-8 h-8 cursor-pointer hover:opacity-75 mr-2 "
         onClick={handleVolumeToggle}
+        data-testid="volume-toggle"
       >
         {isVolumeOn ? (
           <svg
