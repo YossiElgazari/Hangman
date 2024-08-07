@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://hangman-kxt2.onrender.com/api';
 
 // Fetch a word based on the given category and difficulty
 export const fetchWordByCategory = async ({category, difficulty}: {category: string, difficulty: string}) => {
