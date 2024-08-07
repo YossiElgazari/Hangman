@@ -48,3 +48,11 @@ export const addScore = async ({ username, score }: { username: string; score: n
     }
   }
 };
+
+export const wakeTheServer = async () => {
+  try {
+    await axios.get(`${API_URL}/wake`);
+  } catch (error) {
+    console.error('Error waking the server:', error);
+  }
+};

@@ -10,6 +10,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import { useGameState } from "../hooks/useGameState";
 import LeaderBoard from "../components/LeaderBoard";
 import LeaderBoardModal from "../components/LeaderBoardModal";
+import { wakeTheServer } from "../service/api";
 
 const LandingPage = () => {
   const { startGame } = useGameState();
@@ -137,6 +138,7 @@ const LandingPage = () => {
   }, []);
 
   useEffect(() => {
+    wakeTheServer(); // Wake up the server
     initializeGSAPAnimations();
   }, [initializeGSAPAnimations]);
 
