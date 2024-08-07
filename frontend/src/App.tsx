@@ -20,7 +20,7 @@ const AppContent = () => {
       data-testid="app-content"
     >
       <Navbar />
-      <div className="h-full">
+      <div className="h-[calc(100dvh-56px)]">
         {/* Navbar component: MenuSettings, VolumeOn/Off, SwitchLight/Dark */}
         {isGameStarted ? <GamePage /> : <LandingPage />}
         {/* isGameStarted: boolean, Conditional rendering based on game state */}
