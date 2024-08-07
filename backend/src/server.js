@@ -18,6 +18,9 @@ app.use(express.json()); // Parse JSON request bodies
 // Route handlers
 app.use('/api', scoreRoutes);
 app.use('/api', wordRoutes);
+app.use('/', (req, res) => {
+  res.send('Welcome to Hangman API');
+});
 
 // Start the server
 const server = app.listen(port, () => {

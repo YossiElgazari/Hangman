@@ -10,7 +10,6 @@
 
 body {
   @apply bg-primary dark:bg-primary_dark;
-  height: 100dvh;
 }
 /* Modals animation */
 
