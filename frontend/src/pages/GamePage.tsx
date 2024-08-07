@@ -114,7 +114,7 @@ const GamePage = () => {
 
   return (
     <>
-      <div data-testid="game-page" className="game-page flex flex-col w-full h-[calc(100vh-56px)] p-4">
+      <div data-testid="game-page" className="game-page flex flex-col w-full h-[calc(100dvh-56px)] p-4 pt-0">
         <div className="flex flex-col justify-center items-center mb-2 md:mt-10 xl:mt-2 lg:mb-4">
           <div className="flex flex-row justify-center items-center">
             <p className="font-permanent tracking-[0.2em] text-headline2 font-semibold text-center text-gray-700 dark:text-secondary_dark50  mr-2">
@@ -126,7 +126,7 @@ const GamePage = () => {
         </div>
         <div className="flex justify-center items-center flex-grow md:flex-row flex-col-reverse">
           <GameBoard word={word} guessedLetters={guessedLetters} />
-          <div className="md:w-1/3 md:flex md:justify-center md:items-center">
+          <div className="md:w-1/3 md:flex md:justify-center md:items-center my-1">
             <HangmanAnimation wrongGuesses={wrongGuesses} />
           </div>
         </div>

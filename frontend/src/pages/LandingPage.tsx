@@ -171,7 +171,7 @@ const LandingPage = () => {
   return (
     <>
       <div className="landing-page">
-        <div className="flex flex-col h-full justify-center items-center relative ">
+        <div className="flex flex-col h-[100dvh] justify-center items-center relative ">
           <ParticlesBackground />
           <img
             ref={imgRef}
