@@ -19,7 +19,7 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 p-4 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={handleClose}

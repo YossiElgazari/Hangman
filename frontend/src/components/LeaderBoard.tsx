@@ -8,7 +8,7 @@ type LeaderBoardProps = {
 const LeaderBoard = ({ onClick, dataTestId }: LeaderBoardProps) => {
   return (
     <div>
-      <div className="bottom-2 right-2 absolute">
+      <div className="bottom-2 right-2 fixed">
         <img
           src={leaderboardIcon}
           alt="LeaderBoard"

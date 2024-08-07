@@ -34,7 +34,7 @@ const CategoryModal = ({ closeModal }: CategoryModalProps) => {
       onClick={handleClose}
     >
       <div
-        className="bg-primary dark:bg-primary_dark p-8 rounded-lg shadow-lg max-w-md w-full md:max-w-xl lg:max-w-2xl relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark p-4 rounded-lg shadow-lg max-w-md w-full md:max-w-xl lg:max-w-2xl relative transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
       >

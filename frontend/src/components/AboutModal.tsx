@@ -22,14 +22,14 @@ const AboutModal = ({ closeModal }: AboutModalProps) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 p-4 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={handleClose}
       data-testid="about-modal"
     >
       <div
-        className="bg-primary dark:bg-primary_dark p-6 rounded-lg shadow-lg max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark p-4 rounded-lg shadow-lg max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl relative transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
       >

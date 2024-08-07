@@ -68,11 +68,9 @@ const EndGameModal = ({
         <h2 className="text-headline2 font-outfit mb-4 bg-primary50 text-primary_dark dark:text-primary dark:bg-primary_dark50 p-2 rounded-xl">
           {gameStatus === "won" ? "You Won!" : "Game Over!"}
         </h2>
-        {gameStatus === "lost" && (
           <p className="text-body1 text-primary_dark dark:text-primary mb-4">
             The word was: <span className="font-bold">{word}</span>
           </p>
-        )}
         <p className="text-body1 text-primary_dark dark:text-primary font-bold mb-4">Score: {score}</p>
         <div className="flex flex-col items-center">
           {gameStatus === "won" && (
