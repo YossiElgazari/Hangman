@@ -59,7 +59,7 @@ const EndGameModal = ({
   };
 
   return (
-    <div className="fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300">
+    <div className="fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 p-4">
       <div
        data-testid="endgame-modal"
         ref={modalRef}
@@ -74,9 +74,9 @@ const EndGameModal = ({
         <p className="text-body1 text-primary_dark dark:text-primary font-bold mb-4">Score: {score}</p>
         <div className="flex flex-col items-center">
           {gameStatus === "won" && (
-            <MyButton onClick={onNextWord} className="mb-4">Next Word</MyButton>
+            <MyButton size="small" onClick={onNextWord} className="mb-4">Next Word</MyButton>
           )}
-          <MyButton className="mb-4" onClick={onBackToMain}>Go Home</MyButton>
+          <MyButton size="small" className="mb-4" onClick={onBackToMain}>Go Home</MyButton>
           {error && (
             <div className="flex items-center text-red-600 bg-red-100 border border-red-600 rounded-md p-2 mb-6 transition-opacity duration-1000 ease-in-out animate-fade-in-out">
               <span>{error}</span>
@@ -91,12 +91,12 @@ const EndGameModal = ({
                 placeholder="Username"
                 className="bg-primary dark:bg-primary_dark border-2 border-primary_dark50 p-2 rounded-xl mb-4 font-poppins w-full focus:outline-none  focus:bg-primary50 dark:focus:bg-primary_dark50 focus:text-primary_dark dark:focus:text-primary"
               />
-              <MyButton onClick={handleScoreSubmit}>
+              <MyButton size="small" onClick={handleScoreSubmit}>
                 Send
               </MyButton>
             </div>
           ) : (
-            <MyButton onClick={() => setIsSubmittingScore(true)}>
+            <MyButton size="small" onClick={() => setIsSubmittingScore(true)}>
               Submit Score
             </MyButton>
           )}

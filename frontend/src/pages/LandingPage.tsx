@@ -170,29 +170,34 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="landing-page h-full" data-testid="landing-page">
-        <div className="flex flex-col justify-center items-center relative ">
-          <ParticlesBackground />
-          <img
-            ref={imgRef}
-            src={text}
-            className=" self-center max-w-full h-auto max-h-80 md:max-h-96"
-            alt="Hangman Game"
-            draggable="false"
-          />
-          <img
-            src={textshadow}
-            ref={shadowRef}
-            className="self-center w-[26rem] opacity-0"
-          />
-        </div>
-        <div className="flex flex-col p-4 items-center mt-12 2k:mt-72">
+      <div className="landing-page flex flex-col h-full items-center  p-4 md:p-8" data-testid="landing-page">
+      <div className="flex flex-col justify-center items-center relative">
+      <ParticlesBackground />
+
+  <img
+    ref={imgRef}
+    src={text}
+    className="self-center w-full max-w-[16rem] sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] 2k:max-w-[32rem] pointer-events-none"
+    alt="Hangman Game"
+    draggable="false"
+    onContextMenu={(e) => e.preventDefault()}
+  />
+  <img
+    src={textshadow}
+    ref={shadowRef}
+    className="self-center w-full max-w-[16rem] sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] 2k:max-w-[32rem] opacity-0 pointer-events-none"
+    alt="Shadow"
+    draggable="false"
+    onContextMenu={(e) => e.preventDefault()}
+  />
+</div>
+
+        <div className="flex flex-col p-2  items-center flex-grow justify-center">
           <MyButton
             ref={playButtonRef}
             onClick={() => openModal(setIsCategoryModalOpen)}
             size="large"
-            className="opacity-0 hover:float-button"
-            width="250px"
+            className="opacity-0 hover:float-button mb-2 lg:mb-4"            
             dataTestId="play-now-button"
           >
             Play Now
@@ -201,8 +206,7 @@ const LandingPage = () => {
             ref={aboutButtonRef}
             onClick={() => openModal(setIsAboutModalOpen)}
             size="large"
-            className="mt-4 opacity-0 hover:float-button"
-            width="250px"
+            className="opacity-0 hover:float-button mb-2 lg:mb-4"
             dataTestId="about-game-button"
           >
             About The Game
@@ -211,8 +215,7 @@ const LandingPage = () => {
             ref={meButtonRef}
             onClick={() => openModal(setIsMeModalOpen)}
             size="large"
-            className="mt-4 opacity-0 hover:float-button"
-            width="250px"
+            className="opacity-0 hover:float-button mb-2 lg:mb-4"
             dataTestId="about-me-button"
           >
             About Me

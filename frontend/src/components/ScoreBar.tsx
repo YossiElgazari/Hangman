@@ -21,7 +21,7 @@ const ScoreBar = ({ score }: { score: number }) => {
   }, [score, displayScore]);
 
   return (
-    <p data-testid="score" className="font-permanent text-headline4 font-semibold text-gray-700 dark:text-secondary_dark50">
+    <p data-testid="score" className="font-permanent text-headline4 xl:text-headline3 2k:text-headline2 font-semibold text-gray-700 dark:text-secondary_dark50">
       Score: {displayScore}
     </p>
   );

@@ -16,6 +16,7 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
   const [category, setCategory] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [error, setError] = useState("");
+  const [isFetching, setIsFetching] = useState(false);
 
   const handleStartGame = async () => {
     // Check if both category and difficulty are selected
@@ -25,7 +26,9 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
       return;
     }
     // Fetch a word based on selected category and difficulty
+    setIsFetching(true);
     const word = await fetchWordByCategory({ category, difficulty });
+    setIsFetching(false);
     setWord(word); // Set the fetched word
   };
 
@@ -61,7 +64,7 @@ const CategorySelector = ({ setWord }: CategorySelectorProps) => {
         </div>
       )}
       <div className="flex justify-center mt-4">
-        <MyButton dataTestId="start-game-button" onClick={handleStartGame}>Start Game</MyButton>
+        <MyButton isLoading={isFetching} dataTestId="start-game-button" onClick={handleStartGame}>Start Game</MyButton>
       </div>
     </div>
   );

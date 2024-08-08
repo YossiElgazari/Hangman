@@ -19,7 +19,7 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 p-4 ${
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={handleClose}
@@ -46,7 +46,7 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
             childhood, which has fueled my enthusiasm for technology and
             software development.
           </span>
-          <div className="flex justify-between w-[40%] p-4 dark:bg-primary bg-primary_dark bg-opacity-5 dark:bg-opacity-5 rounded-full">
+          <div className="flex justify-between w-[40%] p-2 dark:bg-primary bg-primary_dark bg-opacity-5 dark:bg-opacity-5 rounded-full">
             <a
               href="https://github.com/YossiElgazari"
               target="_blank"

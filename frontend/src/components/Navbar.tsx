@@ -4,7 +4,7 @@ import Volume from './Volume';
 
 const Navbar = () => {
     return (
-        <nav className="w-full flex items-center justify-between p-2">
+        <nav className="w-full flex items-center justify-between p-2 h-[56px]">
             <div className="flex items-center z-20">
                 <SettingsMenu /> {/* Component for settings menu */}
                 <Volume /> {/* Component for volume control */}

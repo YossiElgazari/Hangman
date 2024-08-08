@@ -1,6 +1,6 @@
 import CategorySelector from "./CategorySelector";
 import { useEffect, useState } from "react";
-import XButton from "./XButton.tsx";
+import XButton from "./XButton";
 
 type CategoryModalProps = {
   closeModal: (selectedWord?: {
@@ -28,18 +28,23 @@ const CategoryModal = ({ closeModal }: CategoryModalProps) => {
   return (
     <div
       data-testid="category-modal"
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 p-4 ${
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={handleClose}
     >
       <div
-        className="bg-primary dark:bg-primary_dark p-4 rounded-lg shadow-lg max-w-md w-full md:max-w-xl lg:max-w-2xl relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark p-4 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-sm md:max-w-xl lg:max-w-2xl xl:max-w-2xl relative font-outfit transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
       >
         <XButton dataTestId="close-category-modal" handleClose={handleClose} />
-        <CategorySelector setWord={closeModal} />
+        <div className="relative flex flex-col items-center">
+          <h2 className="text-2xl dark:text-secondary_dark font-bold mb-4">
+            Select Category
+          </h2>
+          <CategorySelector setWord={closeModal} />
+        </div>
       </div>
     </div>
   );

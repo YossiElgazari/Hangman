@@ -5,7 +5,6 @@ export interface Settings {
   volume: number;
   darkMode: boolean;
   soundEffectsVolume: number;
-  [key: string]: number | boolean | string | undefined;
 }
 
 // Interface for the settings context properties
@@ -18,11 +17,24 @@ export interface SettingsContextProps {
 const SettingsContext = createContext<SettingsContextProps | undefined>(undefined);
 
 export const SettingsProvider = ({ children }: { children: ReactNode }) => {
-  const [settings, setSettings] = useState<Settings>({ volume: 50, darkMode: false, soundEffectsVolume: 50 });
+  const [settings, setSettings] = useState<Settings>(() => {
+    const storedDarkMode = localStorage.getItem('darkMode');
+    return {
+      volume: 50,
+      darkMode: storedDarkMode ? JSON.parse(storedDarkMode) : false,
+      soundEffectsVolume: 50
+    };
+  });
 
   // Function to update settings state
   const updateSettings = (newSettings: Partial<Settings>) => {
-    setSettings((prevSettings) => ({ ...prevSettings, ...newSettings }));
+    setSettings((prevSettings) => {
+      const updatedSettings = { ...prevSettings, ...newSettings };
+      if ('darkMode' in newSettings) {
+        localStorage.setItem('darkMode', JSON.stringify(updatedSettings.darkMode));
+      }
+      return updatedSettings;
+    });
   };
 
   // Apply dark mode class to the document element when darkMode setting changes

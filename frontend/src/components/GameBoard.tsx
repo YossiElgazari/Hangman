@@ -7,7 +7,7 @@ const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
   const lines = word.word.split(" "); // Split the word into lines based on spaces
 
   return (
-    <div className="flex flex-grow justify-center items-center flex-col mb-4" data-testid="gameboard">
+    <div className="flex flex-grow justify-center items-center flex-col" data-testid="gameboard">
       {lines.map((line, lineIndex) => (
         <div
           key={lineIndex}
