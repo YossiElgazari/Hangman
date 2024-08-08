@@ -11,9 +11,9 @@ type ButtonProps = {
 
 // Define CSS classes for different button sizes
 const sizeClasses = {
-  small: "text-sm px-4 py-2 border w-[150px]",
+  small: "text-sm px-4 py-2 border w-20 lg:w-24",
   medium: "text-md px-6 py-3 border w-full w-[150px] lg:w-[200px]",
-  large: "text-lg px-8 py-4 border-2 w-full w-[210px] sm:w-[250px] md:w-[300px] lg:px-10 lg:py-6 lg:text-2xl lg:w-[350px]",
+  large: "text-lg px-8 py-4 border-2 w-full w-[210px] sm:w-[250px] md:w-[300px] lg:px-10 lg:py-6 lg:text-2xl",
 };
 
 const MyButton = forwardRef<HTMLButtonElement, ButtonProps>(

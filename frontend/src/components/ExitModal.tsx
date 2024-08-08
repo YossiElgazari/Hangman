@@ -20,9 +20,7 @@ const ExitModal = ({ closeModal }: ExitModalProps) => {
   };
 
   const handleExit = () => {
-    // Attempt to close the browser window
-    window.open('', '_self', ''); // Some browsers require this for window.close() to work
-    window.close();
+    // exit browser
   };
 
   return (

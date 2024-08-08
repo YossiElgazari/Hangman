@@ -22,7 +22,7 @@ const EndGameModal = ({
   const [username, setUsername] = useState("");
   const [error, setError] = useState("");
   const modalRef = useRef<HTMLDivElement>(null);
-
+  const [ isSending, setIsSending ] = useState(false);
   // Animate the modal when it appears
   useEffect(() => {
     gsap.fromTo(
@@ -45,7 +45,9 @@ const EndGameModal = ({
     }
 
     try {
+      setIsSending(true);
       const response = await addScore({ username, score });
+      setIsSending(false);
       if (response && !response.message) {
         onBackToMain(); // Go back to main if score submission is successful
       } else {
@@ -91,7 +93,7 @@ const EndGameModal = ({
                 placeholder="Username"
                 className="bg-primary dark:bg-primary_dark border-2 border-primary_dark50 p-2 rounded-xl mb-4 font-poppins w-full focus:outline-none  focus:bg-primary50 dark:focus:bg-primary_dark50 focus:text-primary_dark dark:focus:text-primary"
               />
-              <MyButton size="small" onClick={handleScoreSubmit}>
+              <MyButton size="small" onClick={handleScoreSubmit} isLoading={isSending}>
                 Send
               </MyButton>
             </div>

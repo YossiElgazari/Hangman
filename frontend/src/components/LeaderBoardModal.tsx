@@ -13,6 +13,7 @@ type LeaderboardModalProps = {
 
 const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
   const [LeaderBoard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -21,12 +22,14 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
       try {
         const data = await fetchTopScores();
         if (Array.isArray(data)) {
-          setLeaderboard(data);
+          setLeaderboard(data.slice(0, 5)); // Limit to top 5 entries
         } else {
           console.error("Fetched data is not an array:", data);
         }
       } catch (error) {
         console.error("Error fetching LeaderBoard:", error);
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -57,36 +60,51 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
           LEADERBOARD
         </h2>
         <div className="flex flex-col items-center mt-6 mb-4 w-full">
-          {LeaderBoard.map((entry, index) => (
-            <div
-              key={index}
-              className="w-full flex items-center justify-between rounded-xl bg-primary50 dark:bg-primary_dark50 bg-opacity-50 py-1 text-primary_dark50 dark:text-primary50 font-outfit font-medium text-headline5 px-4 mb-2"
-            >
-              <div className="flex items-center space-x-2">
-                <div className="flex items-center justify-center w-10 h-10">
-                  {index === 0 || index === 1 || index === 2 ? (
-                    <img
-                      src={`/${index + 1}medal.svg`}
-                      alt={`${index + 1}medal`}
-                      className={`${
-                        index === 0
-                          ? "w-10 h-10"
-                          : index === 1
-                          ? "w-9 h-9"
-                          : "w-8 h-8"
-                      }`}
-                    />
-                  ) : (
-                    <span className="w-8 h-8 flex items-center justify-center text-center">
-                      {index + 1}
-                    </span>
-                  )}
+          {isLoading
+            ? Array.from({ length: 5 }).map((_, index) => (
+                <div
+                  key={index}
+                  className="w-full flex items-center justify-between rounded-xl bg-primary50 dark:bg-primary_dark50 bg-opacity-50 py-1 text-primary_dark50 dark:text-primary50 font-outfit font-medium text-headline5 px-4 mb-2 animate-pulse"
+                >
+                  <div className="flex items-center space-x-2">
+                    <div className="flex items-center justify-center w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-full">
+                      <span className="w-8 h-8 flex items-center justify-center text-center text-transparent">-</span>
+                    </div>
+                    <span className="bg-gray-200 dark:bg-gray-700 h-6 w-24 rounded-md">&nbsp;</span>
+                  </div>
+                  <span className="bg-gray-200 dark:bg-gray-700 h-6 w-24 rounded-md">&nbsp;</span>
                 </div>
-                <span>{entry.username}</span>
-              </div>
-              <span className="w-24">{entry.score}</span>
-            </div>
-          ))}
+              ))
+            : LeaderBoard.map((entry, index) => (
+                <div
+                  key={index}
+                  className="w-full flex items-center justify-between rounded-xl bg-primary50 dark:bg-primary_dark50 bg-opacity-50 py-1 text-primary_dark50 dark:text-primary50 font-outfit font-medium text-headline5 px-4 mb-2"
+                >
+                  <div className="flex items-center space-x-2">
+                    <div className="flex items-center justify-center w-10 h-10">
+                      {index === 0 || index === 1 || index === 2 ? (
+                        <img
+                          src={`/${index + 1}medal.svg`}
+                          alt={`${index + 1}medal`}
+                          className={`${
+                            index === 0
+                              ? "w-10 h-10"
+                              : index === 1
+                              ? "w-9 h-9"
+                              : "w-8 h-8"
+                          }`}
+                        />
+                      ) : (
+                        <span className="w-8 h-8 flex items-center justify-center text-center">
+                          {index + 1}
+                        </span>
+                      )}
+                    </div>
+                    <span>{entry.username}</span>
+                  </div>
+                  <span className="w-24">{entry.score}</span>
+                </div>
+              ))}
         </div>
         <MyButton
           dataTestId="close-leaderboard-modal"
