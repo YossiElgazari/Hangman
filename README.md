@@ -27,7 +27,7 @@ This is a web-based implementation of the classic Hangman word-guessing game, bu
   - React
   - TypeScript
   - Vite
-  - CSS
+  - Tailwind CSS
   - [tsParticles](https://github.com/matteobruni/tsparticles) for background effects
   - GSAP for animations
 
