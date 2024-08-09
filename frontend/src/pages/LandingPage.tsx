@@ -171,13 +171,13 @@ const LandingPage = () => {
   return (
     <>
       <div className="landing-page flex flex-col h-full items-center  p-4 md:p-8" data-testid="landing-page">
-      <div className="flex flex-col justify-center items-center relative">
+      <div className="flex w-full flex-col justify-center items-center relative">
       <ParticlesBackground />
 
   <img
     ref={imgRef}
     src={text}
-    className="self-center w-full max-w-[16rem] sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] 2k:max-w-[32rem] pointer-events-none"
+    className="self-center w-[50%] md:[45%] lg:w-[35%] xl:[30%] 2k:w-[20%] pointer-events-none"
     alt="Hangman Game"
     draggable="false"
     onContextMenu={(e) => e.preventDefault()}
@@ -185,7 +185,7 @@ const LandingPage = () => {
   <img
     src={textshadow}
     ref={shadowRef}
-    className="self-center w-full max-w-[16rem] sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] 2k:max-w-[32rem] opacity-0 pointer-events-none"
+    className="self-center w-[50%] md:[45%] lg:w-[35%] xl:[30%] 2k:w-[20%] opacity-0 pointer-events-none"
     alt="Shadow"
     draggable="false"
     onContextMenu={(e) => e.preventDefault()}
