@@ -11,7 +11,6 @@ import { fetchWordByCategory } from "../service/api";
 import HangmanAnimation from "../components/HangmanAnimation";
 import { Howl } from 'howler';
 import { useSettings } from "../hooks/useSettings";
-import { title } from "process";
 
 // Load the sounds
 const correctGuessSound = new Howl({

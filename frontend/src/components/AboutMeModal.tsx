@@ -40,11 +40,13 @@ const AboutMeModal = ({ closeModal }: { closeModal: () => void }) => {
             About Me
           </h2>
           <span className="text-gray-700 dark:text-secondary_dark mb-4 text-body2 lg:text-body1 ">
-            My name is <b>Yossi Elgazari,</b> <br />I am a junior software
+            <b>Hi,</b> my name is Yossi Elgazari <br />I am a junior software
             developer with a strong passion for learning and innovation. A
             lifelong gamer, I have been immersed in the gaming world since
             childhood, which has fueled my enthusiasm for technology and
             software development.
+            <br />
+            If you would like to see more:
           </span>
           <div className="flex justify-between w-[40%] p-2 dark:bg-primary bg-primary_dark bg-opacity-5 dark:bg-opacity-5 rounded-full">
             <a
