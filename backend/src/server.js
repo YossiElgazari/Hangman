@@ -11,8 +11,22 @@ const port = process.env.PORT;
 // Connect to the database
 connectDB();
 
+// CORS Configuration
+const allowedOrigins = ['https://hangman-frontend.onrender.com'];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true, // If your frontend needs to send cookies or authentication data
+};
+
 // Middleware
-app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(cors(corsOptions)); // Apply CORS configuration
 app.use(express.json()); // Parse JSON request bodies
 
 // Route handlers
