@@ -14,13 +14,13 @@ const AppContent = () => {
 
   return (
     <div
-      className={`h-[100dvh]  bg-primary dark:bg-primary_dark ${
+      className={`h-[100dvh] md-overflow-hidden bg-primary dark:bg-primary_dark ${
         settings.darkMode ? "dark" : "light"
       }`}
       data-testid="app-content"
     >
       <Navbar />
-      <div className="h-[calc(100dvh-56px)] overflow-hidden">
+      <div className="h-[calc(100dvh-56px)]">
         {/* Navbar component: MenuSettings, VolumeOn/Off, SwitchLight/Dark */}
         {isGameStarted ? <GamePage /> : <LandingPage />}
         {/* isGameStarted: boolean, Conditional rendering based on game state */}
