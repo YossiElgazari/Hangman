@@ -40,9 +40,6 @@ const CategoryModal = ({ closeModal }: CategoryModalProps) => {
       >
         <XButton dataTestId="close-category-modal" handleClose={handleClose} />
         <div className="relative flex flex-col items-center">
-          <h2 className="text-2xl dark:text-secondary_dark font-bold mb-4">
-            Select Category
-          </h2>
           <CategorySelector setWord={closeModal} />
         </div>
       </div>

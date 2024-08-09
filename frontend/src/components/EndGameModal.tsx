@@ -9,6 +9,7 @@ type EndGameModalProps = {
   onNextWord: () => void;
   onBackToMain: () => void;
   word: string;
+  isFetching: boolean;
 };
 
 const EndGameModal = ({
@@ -16,6 +17,7 @@ const EndGameModal = ({
   onNextWord,
   onBackToMain,
   word,
+  isFetching,
 }: EndGameModalProps) => {
   const { score } = useGameState();
   const [isSubmittingScore, setIsSubmittingScore] = useState(false);
@@ -23,6 +25,7 @@ const EndGameModal = ({
   const [error, setError] = useState("");
   const modalRef = useRef<HTMLDivElement>(null);
   const [ isSending, setIsSending ] = useState(false);
+
   // Animate the modal when it appears
   useEffect(() => {
     gsap.fromTo(
@@ -76,7 +79,7 @@ const EndGameModal = ({
         <p className="text-body1 text-primary_dark dark:text-primary font-bold mb-4">Score: {score}</p>
         <div className="flex flex-col items-center">
           {gameStatus === "won" && (
-            <MyButton size="small" onClick={onNextWord} className="mb-4">Next Word</MyButton>
+            <MyButton size="small" onClick={onNextWord} isLoading={isFetching} className="mb-4">Next Word</MyButton>
           )}
           <MyButton size="small" className="mb-4" onClick={onBackToMain}>Go Home</MyButton>
           {error && (

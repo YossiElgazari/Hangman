@@ -11,7 +11,7 @@ type ButtonProps = {
 
 // Define CSS classes for different button sizes
 const sizeClasses = {
-  small: "text-sm px-4 py-2 border w-20 lg:w-24",
+  small: "text-sm px-4 py-2 border w-22 lg:w-32",
   medium: "text-md px-6 py-3 border w-full w-[150px] lg:w-[200px]",
   large: "text-lg px-8 py-4 border-2 w-full w-[210px] sm:w-[250px] md:w-[300px] lg:px-10 lg:py-6 lg:text-2xl",
 };
@@ -29,7 +29,7 @@ const MyButton = forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={isLoading} // Disable the button when loading
       >
         {isLoading ? (
-          <span className="flex justify-center items-center text-primary dark:text-white">
+          <span className="flex justify-center items-center text-gray-500">
           <svg
             className="animate-spin h-6 w-6"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const MyButton = forwardRef<HTMLButtonElement, ButtonProps>(
               strokeWidth="4"
             ></circle>
             <path
-              className="opacity-75"
+              className="opacity-85"
               fill="currentColor"
               d="M4 12a8 8 0 018-8V0C6.477 0 0 6.477 0 12h4z"
             ></path>

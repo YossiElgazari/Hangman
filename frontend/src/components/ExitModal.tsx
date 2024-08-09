@@ -31,12 +31,12 @@ const ExitModal = ({ closeModal }: ExitModalProps) => {
       data-testid="exit-modal"
     >
       <div
-        className="bg-primary dark:bg-primary_dark50 dark:text-primary text-secondary p-6 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark dark:text-primary text-secondary p-6 sm:p-8 rounded-lg shadow-lg w-11/12 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-20px)' }}
       >
         <XButton handleClose={handleClose} />
-        <div>
+        <div className='flex flex-col items-center justify-center '>
           <h2 className="text-xl font-bold mb-4">Exit Game</h2>
           <p>
             Are you sure you want to exit the game?

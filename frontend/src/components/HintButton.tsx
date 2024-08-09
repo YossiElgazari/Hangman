@@ -64,13 +64,13 @@ const HintButton = ({ openModal }: HintButtonProps) => {
         onMouseLeave={handleMouseLeave}
       />
       {clickedOnce && !noMoney && (
-        <div className="absolute left-1/2 bottom-12 transform -translate-x-1/2 text-center w-24 bg-gray-700 text-white text-sm p-2 rounded">
+        <div className="absolute z-30 left-1/2 bottom-12 transform -translate-x-1/2 text-center w-24 bg-gray-700 text-white text-sm p-2 rounded">
           Click twice
           <div className="tooltip-arrow"></div>
         </div>
       )}
       {noMoney && (
-        <div className="absolute left-1/2 bottom-12 transform -translate-x-1/2 text-center w-32 bg-gray-700 text-white text-sm p-2 rounded">
+        <div className="absolute z-30 left-1/2 bottom-12 transform -translate-x-1/2 text-center w-32 bg-gray-700 text-white text-sm p-2 rounded">
           Not enough score
           <div className="tooltip-arrow"></div>
         </div>

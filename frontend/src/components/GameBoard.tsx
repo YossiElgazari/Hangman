@@ -11,7 +11,7 @@ const GameBoard = ({ word, guessedLetters }: GameBoardProps) => {
       {lines.map((line, lineIndex) => (
         <div
           key={lineIndex}
-          className="flex flex-row flex-wrap justify-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 mb-2"
+          className="flex flex-row flex-wrap justify-center gap-1 mb-4"
         >
           {line.split("").map((char, charIndex) => {
             const isGuessed = guessedLetters.includes(char.toLowerCase()); // Check if the character is guessed

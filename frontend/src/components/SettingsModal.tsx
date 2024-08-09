@@ -24,19 +24,19 @@ const SettingsModal = ({ onClose }: SettingsModalProps) => {
 
   return (
     <div
-      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"
+      className={`fixed z-20 inset-0 bg-secondary50 bg-opacity-75 flex items-center justify-center p-4 transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"
         }`}
       onClick={handleClose}
       data-testid="settings-modal"
     >
       <div
-        className="bg-primary dark:bg-primary_dark p-8 rounded-lg shadow-lg max-w-sm w-full md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
+        className="bg-primary dark:bg-primary_dark p-4 rounded-lg shadow-lg max-w-sm w-full md:max-w-md lg:max-w-lg relative transition-transform duration-300 transform"
         onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
         style={{ transform: isVisible ? "translateY(0)" : "translateY(-20px)" }}
       >
         <XButton handleClose={handleClose} />
         <div>
-          <h2 className="text-headline4 font-bold mb-4 text-secondary dark:text-secondary_dark">
+          <h2 className="flex justify-center items-center text-headline4 font-bold mb-4 text-secondary dark:text-secondary_dark">
             Settings
           </h2>
           {/* Volume controls for music and sound effects */}

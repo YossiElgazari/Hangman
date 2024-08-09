@@ -11,22 +11,23 @@ import { fetchWordByCategory } from "../service/api";
 import HangmanAnimation from "../components/HangmanAnimation";
 import { Howl } from 'howler';
 import { useSettings } from "../hooks/useSettings";
+import { title } from "process";
 
 // Load the sounds
 const correctGuessSound = new Howl({
-  src: ['/correct.mp3'], 
+  src: ['/correct.mp3'],
 });
 
 const wrongGuessSound = new Howl({
-  src: ['/wrong.mp3'], 
+  src: ['/wrong.mp3'],
 });
 
 const winSound = new Howl({
-  src: ['/win.mp3'], 
+  src: ['/win.mp3'],
 });
 
 const loseSound = new Howl({
-  src: ['/lose.mp3'], 
+  src: ['/lose.mp3'],
 });
 
 const GamePage = () => {
@@ -35,6 +36,8 @@ const GamePage = () => {
   const [wrongGuesses, setWrongGuesses] = useState<number>(0);
   const [isHintModalOpen, setIsHintModalOpen] = useState(false);
   const { settings } = useSettings();
+  const [isFetching, setIsFetching] = useState(false);
+  const [prevWord, setPrevWord] = useState<string | null>(null);
 
   // Animation for page load
   useEffect(() => {
@@ -47,23 +50,47 @@ const GamePage = () => {
         scale: 1,
         duration: 1,
         ease: "back.out(1.7)",
+        onComplete: () => {titleAnimationWhenNewGame()},
       });
     };
 
+    const titleAnimationWhenNewGame = () => {
+      const tl = gsap.timeline({
+        defaults: { duration: 1, ease: "power1.out" },
+      });
+    
+      tl.fromTo(
+        ".title",
+        { scale: 1, rotation: 0, opacity: 1 },
+        {
+          scale: 1.2, // Increase size
+          opacity: 1,
+          duration: 0.5,
+          stagger: 0.1, // Stagger effect for each letter
+        }
+      )
+      .to(".title", {
+        scale: 1, // Return to original size
+        rotation: 0, // Return to original rotation
+        duration: 0.5, // Duration to return to normal
+        ease: "elastic.out(1, 0.5)", // Elastic effect for a bouncy return
+      });
+    };
     animationStartGamePage();
+
   }, [word]);
 
   useEffect(() => {
     // Update volume based on settings
-    correctGuessSound.volume(settings.soundEffectsVolume / 100); 
+    correctGuessSound.volume(settings.soundEffectsVolume / 100);
     wrongGuessSound.volume(settings.soundEffectsVolume / 100);
     winSound.volume(settings.soundEffectsVolume / 100);
     loseSound.volume(settings.soundEffectsVolume / 100);
-    
+
     // Check game status
     if (wrongGuesses >= 6) {
       setGameStatus("lost");
-      loseSound.play(); 
+      loseSound.play();
     } else if (
       word?.word
         .split("")
@@ -100,10 +127,18 @@ const GamePage = () => {
   };
 
   const handleNextWord = async () => {
-    const nextWord = await fetchWordByCategory({
-      category: "random",
-      difficulty: "random",
-    });
+    setIsFetching(true);
+
+    let nextWord;
+    do {
+      nextWord = await fetchWordByCategory({
+        category: "random",
+        difficulty: "random",
+      });
+    } while (nextWord.word === prevWord);
+
+    setIsFetching(false);
+    setPrevWord(nextWord.word); // Update prevWord with the new word
     setGuessedLetters([]);
     setWrongGuesses(0);
     setGameStatus(null);
@@ -117,7 +152,7 @@ const GamePage = () => {
       <div data-testid="game-page" className="game-page h-full flex flex-col items-center justify-center p-4 md:p-8">
         <div className="flex flex-col justify-center items-center md:mt-10 xl:mt-2 lg:mb-4">
           <div className="flex flex-row justify-center items-center">
-            <p className="font-permanent tracking-[0.2em] text-headline3 lg:text-headline2 2k:text-headline1 font-semibold text-center text-gray-700 dark:text-secondary_dark50  mr-2">
+            <p className="title font-permanent tracking-[0.2em] text-headline3 lg:text-headline2 2k:text-headline1 font-semibold text-center text-gray-700 dark:text-secondary_dark50  mr-2">
               {word.category.toUpperCase()}
             </p>
             <HintButton openModal={() => setIsHintModalOpen(true)} />
@@ -128,7 +163,7 @@ const GamePage = () => {
           <div className="md:w-1/3 md:flex md:justify-center md:items-center my-1 md:my-0">
           </div>
           <div className="md:w-2/3 md:flex md:justify-center md:items-center my-1 md:my-0">
-          <GameBoard word={word} guessedLetters={guessedLetters} />
+            <GameBoard word={word} guessedLetters={guessedLetters} />
           </div>
           <div className="md:w-1/3 md:flex md:justify-center md:items-center my-1 md:my-0">
             <HangmanAnimation wrongGuesses={wrongGuesses} />
@@ -147,6 +182,7 @@ const GamePage = () => {
           word={word.word}
           onNextWord={handleNextWord}
           onBackToMain={backToMain}
+          isFetching={isFetching}
         />
       )}
     </>

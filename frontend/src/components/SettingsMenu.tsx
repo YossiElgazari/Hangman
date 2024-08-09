@@ -212,20 +212,20 @@ const SettingsMenu = () => {
           <ul className="flex flex-col p-2">
             {isGameStarted && (
               <li
-                className="hover:bg-gray-400 dark:hover:bg-primary_dark50 p-2 rounded cursor-pointer"
+                className="hover:bg-gray-400 dark:hover:bg-primary_dark p-2 rounded cursor-pointer"
                 onClick={handleBackToMain}
               >
                 Home
               </li>
             )}
             <li
-              className="hover:bg-gray-400 dark:hover:bg-primary_dark50 p-2 rounded cursor-pointer"
+              className="hover:bg-gray-400 dark:hover:bg-primary_dark p-2 rounded cursor-pointer"
               onClick={openSettingsModal}
             >
               Settings
             </li>
             <li
-              className="hover:bg-gray-400 dark:hover:bg-primary_dark50 p-2 rounded cursor-pointer"
+              className="hover:bg-gray-400 dark:hover:bg-primary_dark p-2 rounded cursor-pointer"
               onClick={() => {
                 setIsExitModalOpen(true);
                 setIsMenuVisible(false);
