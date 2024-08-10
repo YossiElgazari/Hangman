@@ -170,34 +170,37 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="landing-page flex flex-col h-full items-center  p-4 md:p-8" data-testid="landing-page">
-      <div className="flex w-full flex-col justify-center items-center relative">
-      <ParticlesBackground />
+      <div
+        className="landing-page flex flex-col h-full items-center  p-4 md:p-8"
+        data-testid="landing-page"
+      >
+        <div className="flex w-full flex-col justify-center items-center relative">
+          <ParticlesBackground />
 
-  <img
-    ref={imgRef}
-    src={text}
-    className="self-center w-[50%] md:[45%] lg:w-[35%] xl:[30%] 2k:w-[20%] pointer-events-none"
-    alt="Hangman Game"
-    draggable="false"
-    onContextMenu={(e) => e.preventDefault()}
-  />
-  <img
-    src={textshadow}
-    ref={shadowRef}
-    className="self-center w-[50%] md:[45%] lg:w-[35%] xl:[30%] 2k:w-[20%] opacity-0 pointer-events-none"
-    alt="Shadow"
-    draggable="false"
-    onContextMenu={(e) => e.preventDefault()}
-  />
-</div>
+          <img
+            ref={imgRef}
+            src={text}
+            className="self-center w-[40%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] pointer-events-none"
+            alt="Hangman Game"
+            draggable="false"
+            onContextMenu={(e) => e.preventDefault()}
+          />
+          <img
+            src={textshadow}
+            ref={shadowRef}
+            className="self-center w-[40%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] opacity-0 pointer-events-none"
+            alt="Shadow"
+            draggable="false"
+            onContextMenu={(e) => e.preventDefault()}
+          />
+        </div>
 
         <div className="flex flex-col p-2  items-center flex-grow justify-center">
           <MyButton
             ref={playButtonRef}
             onClick={() => openModal(setIsCategoryModalOpen)}
             size="large"
-            className="opacity-0 hover:float-button mb-2 lg:mb-4"            
+            className="opacity-0 hover:float-button mb-2 lg:mb-4"
             dataTestId="play-now-button"
           >
             Play Now
@@ -240,7 +243,10 @@ const LandingPage = () => {
       {isMeModalOpen && (
         <AboutMeModal closeModal={() => closeModal(setIsMeModalOpen)} />
       )}
-      <LeaderBoard dataTestId="leaderboard-button" onClick={() => openModal(setIsLeaderboardOpen)} />
+      <LeaderBoard
+        dataTestId="leaderboard-button"
+        onClick={() => openModal(setIsLeaderboardOpen)}
+      />
       {isLeaderboardOpen && (
         <LeaderBoardModal onClose={() => closeModal(setIsLeaderboardOpen)} />
       )}
