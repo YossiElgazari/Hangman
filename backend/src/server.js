@@ -12,7 +12,7 @@ const port = process.env.PORT;
 connectDB();
 
 // CORS Configuration
-const allowedOrigins = ['https://hangman-frontend.onrender.com', 'http://localhost:3000'];
+const allowedOrigins = ['https://hangman-ftuw.onrender.com', 'http://localhost:3000'];
 
 const corsOptions = {
   origin: function (origin, callback) {

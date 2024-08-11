@@ -1,9 +1,11 @@
 import axios from 'axios';
 
-const API_URL = 'https://hangman-kxt2.onrender.com/api';
+
+const API_URL = import.meta.env.VITE_API_URL;
 
 // Fetch a word based on the given category and difficulty
 export const fetchWordByCategory = async ({category, difficulty}: {category: string, difficulty: string}) => {
+  console.log('API_URL:', API_URL);
   try {
     const response = await axios.get(`${API_URL}/word`, { params: { category, difficulty } });
     return response.data;

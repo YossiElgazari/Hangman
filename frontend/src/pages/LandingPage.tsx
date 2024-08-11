@@ -180,7 +180,7 @@ const LandingPage = () => {
           <img
             ref={imgRef}
             src={text}
-            className="self-center w-[40%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] pointer-events-none"
+            className="self-center w-[60%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] pointer-events-none"
             alt="Hangman Game"
             draggable="false"
             onContextMenu={(e) => e.preventDefault()}
@@ -188,7 +188,7 @@ const LandingPage = () => {
           <img
             src={textshadow}
             ref={shadowRef}
-            className="self-center w-[40%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] opacity-0 pointer-events-none"
+            className="self-center w-[60%] md:[35%] lg:w-[30%] xl:w-[20%] 2k:w-[20%] opacity-0 pointer-events-none"
             alt="Shadow"
             draggable="false"
             onContextMenu={(e) => e.preventDefault()}
