@@ -46,8 +46,8 @@ This is a web-based implementation of the classic Hangman word-guessing game, bu
 
 ## Deployment
 
-You can access the live game at: [Hangman Game](https://hangman-frontend.onrender.com)
-> **Note:** the application is on Render's free tier, it may be asleep when not in use. Please allow up to 50 seconds for the service to wake up when you first access the site.
+You can access the live game at: [Hangman Game](https://hangman-ftuw.onrender.com)
+> **Note:** the application is on Render's free tier, the server may be asleep when not in use. Please allow up to 50 seconds for the service to wake up when you first access the site.
 
 ## Contributing
 
