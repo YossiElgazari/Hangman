@@ -22,7 +22,7 @@ const LeaderBoardModal = ({ onClose }: LeaderboardModalProps) => {
       try {
         const data = await fetchTopScores();
         if (Array.isArray(data)) {
-          setLeaderboard(data.slice(0, 5)); // Limit to top 5 entries
+          setLeaderboard(data); // Limit to top 5 entries
         } else {
           console.error("Fetched data is not an array:", data);
         }
