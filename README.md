@@ -42,7 +42,7 @@ This is a web-based implementation of the classic Hangman word-guessing game, bu
 - **Playwright**: Utilized for end-to-end testing of the frontend. It simulates user interactions such as clicking buttons, selecting categories, and typing letters, ensuring the UI behaves as expected across different scenarios and browsers.
 
 ### Backend Testing
-- **Supertest**: Used for testing the backend API routes. Supertest allows us to test the HTTP requests and responses, ensuring the routes function correctly, handle errors gracefully, and return the expected data.
+- **Supertest**: Used for testing the backend API routes.
 
 
 ## Usage
