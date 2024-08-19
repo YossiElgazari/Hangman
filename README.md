@@ -36,6 +36,15 @@ This is a web-based implementation of the classic Hangman word-guessing game, bu
   - Express
   - MongoDB
 
+## Testing
+
+### Frontend Testing
+- **Playwright**: Utilized for end-to-end testing of the frontend. It simulates user interactions such as clicking buttons, selecting categories, and typing letters, ensuring the UI behaves as expected across different scenarios and browsers.
+
+### Backend Testing
+- **Supertest**: Used for testing the backend API routes. Supertest allows us to test the HTTP requests and responses, ensuring the routes function correctly, handle errors gracefully, and return the expected data.
+
+
 ## Usage
 
 1. Choose a category and difficulty level (or let it be random).
